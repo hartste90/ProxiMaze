@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class ProxiRise : MonoBehaviour {
 
-	public float detectDistance = 10f;
-	public float minHeight = 0f;
-	public float maxHeight = 10f;
+	public float detectDistance = 5f;
+	public float startHeight = -3f;
+	public float minHeight = -2f;
+	public float maxHeight = 1f;
 	public Transform playerTransform;
 
 	public float currentDistance;
 	// Use this for initialization
 	void Start () {
 		playerTransform = GameObject.FindGameObjectsWithTag("Player")[0].transform;
+		SetHeight(startHeight);
 	}
 	
 	// Update is called once per frame
@@ -26,10 +28,15 @@ public class ProxiRise : MonoBehaviour {
 			//move to height according to proximity of player
 			float percentage = 1 - dist/detectDistance;
 			float height = Mathf.Lerp(minHeight, maxHeight, percentage);
-			Debug.Log(percentage);
-			transform.position = new Vector3(transform.position.x, height, transform.position.z);
+			// Debug.Log(percentage);
+			SetHeight(height);
 
 		}
 
+	}
+
+	void SetHeight(float heightSet)
+	{
+		transform.position = new Vector3(transform.position.x, heightSet, transform.position.z);
 	}
 }

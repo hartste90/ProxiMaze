@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED569A76-5E26-8323-EC33-026739D91A2A}</ProjectGuid>
+    <ProjectGuid>{B4B73A7E-9728-8B61-CD6E-A75571D7D8CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_9;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_IOS;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_NICEVIBRATIONS_RUMBLE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_9;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_IOS;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_NICEVIBRATIONS_RUMBLE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>iOS:9</UnityBuildTarget>
     <UnityVersion>2020.1.9f1</UnityVersion>
   </PropertyGroup>
@@ -55,86 +55,10 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/AutoCam.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs" />
-    <Compile Include="Assets/Standard Assets/Utility/CurveControlledBob.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" />
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" />
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" />
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs" />
-    <Compile Include="Assets/Standard Assets/Utility/LerpControlledBob.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" />
-    <Compile Include="Assets/Standard Assets/Utility/FOVKick.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/SRPHelper.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/CheckIfInsideBeam.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DynamicOcclusionRaycasting.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/VolumetricLightBeam.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/SkewingHandle.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/ShaderGenerator.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/Rotater.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/ConfigOverride.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Version.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Utils.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Enums.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/FeaturesNotSupportedMessage.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/MeshGenerator.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/BatchingHelper.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DummyMaterial.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/MaterialManager.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/CameraToggleBeamVisibility.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/HighlightNullAttribute.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/ShaderProperties.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/TriggerZone.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Config.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/LightGenerator.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Noise3D.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/BeamGeometry.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/CachedLightProperties.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/PolygonHelper.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/GlobalMesh.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/MaterialModifier.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Consts.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/FreeCameraController.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/VolumetricDustParticles.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DynamicOcclusionAbstractBase.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/TransformUtils.cs" />
-    <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DynamicOcclusionDepthBuffer.cs" />
+    <Compile Include="Assets/VSCode/Plugins/Editor/VSCode.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_includes_hdrp.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/VolumetricLightBeamShared.cginc" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_includes_urp.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderUtils.cginc" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderSpecificURP.cginc" />
-     <None Include="Assets/Standard Assets/Cameras/CameraGuidelines.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_pass.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderProperties.cginc" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_base.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderSpecificHDRP.hlsl" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderDefines.cginc" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Readme.txt" />
-     <None Include="Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderPropertySystem.cginc" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/VLBGeneratedShader.shader" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderMaths.cginc" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_includes_builtin.txt" />
-     <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderSpecificBuiltin.cginc" />
+     <None Include="Assets/ConsolePro/Editor/ConsolePro.Editor.dll" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -161,6 +85,12 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -306,6 +236,9 @@
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
@@ -314,6 +247,21 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
@@ -324,8 +272,14 @@
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="ConsolePro.Editor">
+      <HintPath>Assets/ConsolePro/Editor/ConsolePro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -678,6 +632,12 @@
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -743,6 +703,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{ED569A76-5E26-8323-EC33-026739D91A2A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{DDCC20F0-2686-167D-D38C-5B75E064D91F}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{656DD7A0-1C6D-29BD-9324-3EB0133B03C4}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="LunarConsole.csproj">
       <Project>{F1C73BC8-5A11-87CE-4015-AD445B1B9B83}</Project>
       <Name>LunarConsole</Name>
