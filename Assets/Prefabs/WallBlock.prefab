@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectDistance: 1
+  startHeight: -3
   minHeight: 0
   maxHeight: 10
   playerTransform: {fileID: 0}

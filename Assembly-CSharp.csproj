@@ -55,52 +55,56 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/ProxiRise.cs" />
-    <Compile Include="Assets/Scripts/HiResScreenShots.cs" />
-    <Compile Include="Assets/HeroicTraversal - Humanoid animations/SmoothFollow.cs" />
-    <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCamera.cs" />
-    <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/ReliableChannel.cs" />
+    <Compile Include="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" />
+    <Compile Include="Assets/ProxiRise.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ExampleGUIBorders.cs" />
+    <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2TimeSlider.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPeerCollection.cs" />
+    <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2SceneSelect.cs" />
+    <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2Cycler.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControl.cs" />
+    <Compile Include="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" />
+    <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCamera.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPeer.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetEndPoint.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDataReader.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetManager.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetConstants.cs" />
+    <Compile Include="Assets/Scripts/HiResScreenShots.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPacket.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/PlayerPrefsPro.cs" />
+    <Compile Include="Assets/HeroicTraversal - Humanoid animations/SmoothFollow.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYHorizontal.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/INetEventListener.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetThread.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NatPunchModule.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/CreditsDisplay.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/SimpleChannel.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/PPPTest_LoadSign.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetSerializer.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/PPPTest_General.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetSocket.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPacketPool.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplay.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/PPPTest_DataManager.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/FastBitConverter.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/HoverTexts.cs" />
     <Compile Include="Assets/ConsolePro/ConsoleProDebug.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/rotate.cs" />
+    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControlXY.cs" />
+    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/HoverTextDM.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDataWriter.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/SequencedChannel.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" />
     <Compile Include="Assets/ConsolePro/Remote/ConsoleProRemoteServer.cs" />
-    <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/PlayerPrefsPro.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/PPPTest_LoadSign.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/PPPTest_General.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/PPPTest_DataManager.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/HoverTexts.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/rotate.cs" />
-    <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/HoverTextDM.cs" />
-    <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2TimeSlider.cs" />
-    <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2SceneSelect.cs" />
-    <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2Cycler.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ExampleGUIBorders.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControl.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYHorizontal.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/CreditsDisplay.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplay.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
-    <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControlXY.cs" />
+    <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
+    <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
+    <Compile Include="Assets/LevelController.cs" />
+    <Compile Include="Assets/PlayerMazeOperator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
@@ -297,6 +301,12 @@
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
@@ -305,9 +315,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -672,6 +679,9 @@
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
@@ -720,22 +730,11 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{ED569A76-5E26-8323-EC33-026739D91A2A}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
-    <ProjectReference Include="LunarConsole.csproj">
-      <Project>{F1C73BC8-5A11-87CE-4015-AD445B1B9B83}</Project>
-      <Name>LunarConsole</Name>
-    </ProjectReference>
-    <ProjectReference Include="LunarConsoleEditor.csproj">
-      <Project>{8DF5D5C9-6D6C-76C3-7E10-B3F163E276EE}</Project>
-      <Name>LunarConsoleEditor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.csproj">
       <Project>{3384C6D3-2D95-AB54-3A68-6A3D5C5FD74B}</Project>
@@ -757,9 +756,17 @@
       <Project>{07DEB18D-3322-F491-C1DE-F05222AD5AE9}</Project>
       <Name>MoreMountains.NiceVibrations.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="LunarConsole.csproj">
+      <Project>{F1C73BC8-5A11-87CE-4015-AD445B1B9B83}</Project>
+      <Name>LunarConsole</Name>
+    </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Demos.csproj">
       <Project>{0FB3A224-E8A2-C473-4BA0-467D9DBA9679}</Project>
       <Name>MoreMountains.NiceVibrations.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="LunarConsoleEditor.csproj">
+      <Project>{8DF5D5C9-6D6C-76C3-7E10-B3F163E276EE}</Project>
+      <Name>LunarConsoleEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

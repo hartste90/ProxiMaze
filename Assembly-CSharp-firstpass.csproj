@@ -55,86 +55,105 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/AutoCam.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs" />
-    <Compile Include="Assets/Standard Assets/Utility/CurveControlledBob.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" />
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" />
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" />
-    <Compile Include="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs" />
-    <Compile Include="Assets/Standard Assets/Utility/LerpControlledBob.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" />
-    <Compile Include="Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs" />
-    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" />
-    <Compile Include="Assets/Standard Assets/Utility/FOVKick.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/SRPHelper.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/CheckIfInsideBeam.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/EventSystemChecker.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DynamicOcclusionRaycasting.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/VolumetricLightBeam.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/SkewingHandle.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/ShaderGenerator.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/TimedObjectActivator.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/Rotater.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/WaypointProgressTracker.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/ConfigOverride.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Version.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Utils.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/SimpleMouseRotator.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/CurveControlledBob.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Enums.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/FeaturesNotSupportedMessage.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/DragRigidbody.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/CameraRefocus.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/PlatformSpecificContent.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/MeshGenerator.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/BatchingHelper.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/ActivateTrigger.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/AutoMoveAndRotate.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/ForcedReset.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/SmoothFollow.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/ObjectResetter.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DummyMaterial.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/MaterialManager.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/CameraToggleBeamVisibility.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/HighlightNullAttribute.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/ShaderProperties.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/TriggerZone.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/WaypointCircuit.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Config.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/LightGenerator.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/AlphaButtonClickMask.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Noise3D.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/DynamicShadowSettings.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/BeamGeometry.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/LerpControlledBob.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/CachedLightProperties.cs" />
+    <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/PolygonHelper.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/FollowTarget.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/GlobalMesh.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/MaterialModifier.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/TimedObjectDestructor.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/Consts.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Samples/Scripts/FreeCameraController.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/FPSCounter.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/VolumetricDustParticles.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DynamicOcclusionAbstractBase.cs" />
+    <Compile Include="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/FOVKick.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/TransformUtils.cs" />
+    <Compile Include="Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets/Plugins/VolumetricLightBeam/Scripts/DynamicOcclusionDepthBuffer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_includes_hdrp.txt" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/VolumetricLightBeamShared.cginc" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_includes_urp.txt" />
+     <None Include="Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets/Plugins/Demigiant/DOTween/DOTween.XML" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderUtils.cginc" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderSpecificURP.cginc" />
-     <None Include="Assets/Standard Assets/Cameras/CameraGuidelines.txt" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_pass.txt" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderProperties.cginc" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_base.txt" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderSpecificHDRP.hlsl" />
+     <None Include="Assets/Plugins/Demigiant/DOTween/DOTween.dll" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderDefines.cginc" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Readme.txt" />
-     <None Include="Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets/Plugins/Demigiant/DOTween/readme.txt" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderPropertySystem.cginc" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/VLBGeneratedShader.shader" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderMaths.cginc" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/shadergen_includes_builtin.txt" />
      <None Include="Assets/Plugins/VolumetricLightBeam/Shaders/ShaderSpecificBuiltin.cginc" />
+     <None Include="Assets/Standard Assets/Fonts/OpenSans/License!.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -315,6 +334,12 @@
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
@@ -323,9 +348,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -690,6 +712,9 @@
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
@@ -738,19 +763,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="LunarConsole.csproj">
-      <Project>{F1C73BC8-5A11-87CE-4015-AD445B1B9B83}</Project>
-      <Name>LunarConsole</Name>
-    </ProjectReference>
-    <ProjectReference Include="LunarConsoleEditor.csproj">
-      <Project>{8DF5D5C9-6D6C-76C3-7E10-B3F163E276EE}</Project>
-      <Name>LunarConsoleEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Rumble.csproj">
       <Project>{3384C6D3-2D95-AB54-3A68-6A3D5C5FD74B}</Project>
       <Name>MoreMountains.NiceVibrations.Rumble</Name>
@@ -771,9 +785,17 @@
       <Project>{07DEB18D-3322-F491-C1DE-F05222AD5AE9}</Project>
       <Name>MoreMountains.NiceVibrations.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="LunarConsole.csproj">
+      <Project>{F1C73BC8-5A11-87CE-4015-AD445B1B9B83}</Project>
+      <Name>LunarConsole</Name>
+    </ProjectReference>
     <ProjectReference Include="MoreMountains.NiceVibrations.Demos.csproj">
       <Project>{0FB3A224-E8A2-C473-4BA0-467D9DBA9679}</Project>
       <Name>MoreMountains.NiceVibrations.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="LunarConsoleEditor.csproj">
+      <Project>{8DF5D5C9-6D6C-76C3-7E10-B3F163E276EE}</Project>
+      <Name>LunarConsoleEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerMazeOperator.cs">
+    <Files>
+      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" Line="209" Column="23" />
+      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" Line="30" Column="19" />
+      <File FileName="Assets/ProxiRise.cs" Line="101" Column="30" />
+      <File FileName="Assets/LevelController.cs" Line="20" Column="37" />
+      <File FileName="../Word-Maker/Assets/Scripts/GameController.cs" Line="11" Column="5" />
+      <File FileName="Assets/PlayerMazeOperator.cs" Line="7" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProxiMaze" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="HeroicTraversal - Humanoid animations" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="PlayerMazeOperator.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2952d26e-cf89-47ae-b49e-af20369e1dbc" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
