@@ -18,12 +18,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1266
+    width: 1920
     height: 985
-  m_MinSize: {x: 811, y: 613}
+  m_MinSize: {x: 811, y: 633}
   m_MaxSize: {x: 22006, y: 18063}
   vertical: 1
-  controlID: -1
+  controlID: 67011
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -32,115 +32,88 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 997
+    x: 859
     y: 75
-    width: 281
-    height: 608
+    width: 658
+    height: 697
   m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
-  m_WindowGUID: 15ecad48026d144a68fd09a0a556556a
-  m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 0
-  m_SceneLighting: 1
-  m_2DMode: 0
-  m_isRotationLocked: 0
-  m_PlayAudio: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 4.545369, y: -7.094885, z: -15.391109}
-    speed: 2
-    m_Value: {x: 4.545369, y: -7.094885, z: -15.391109}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_DoValidateTrueMetals: 0
-  m_ExposureSliderValue: 0
-  m_SceneViewState:
-    showFog: 1
-    showMaterialUpdate: 0
-    showSkybox: 0
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
-    showVisualEffectGraphs: 1
-    m_FxEnabled: 1
-  m_Grid:
-    xGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    yGrid:
-      m_Fade:
-        m_Target: 1
-        speed: 2
-        m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
-    m_GridAxis: 1
-    m_gridOpacity: 0.5
-  m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-    speed: 2
-    m_Value: {x: 0.70710677, y: -0.000000013879876, z: 0.00000000797288, w: 0.7071068}
-  m_Size:
-    m_Target: 24.246336
-    speed: 2
-    m_Value: 24.246336
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.01
-    m_SpeedMax: 2
-    m_EasingEnabled: 1
-    m_EasingDuration: 0.4
-    m_AccelerationEnabled: 1
-    m_FieldOfViewHorizontalOrVertical: 60
-    m_NearClip: 0.03
-    m_FarClip: 10000
-    m_DynamicClip: 1
-    m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_SceneVisActive: 1
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1080, y: 1920}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 1
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 04000000000000002200000013000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -270
+    m_HBaseRangeMax: 270
+    m_VBaseRangeMin: -480
+    m_VBaseRangeMax: 480
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 658
+      height: 676
+    m_Scale: {x: 0.70416665, y: 0.70416665}
+    m_Translation: {x: 329, y: 338}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -467.21893
+      y: -480
+      width: 934.43787
+      height: 960
+    m_MinimalGUI: 1
+  m_defaultScale: 0.70416665
+  m_LastWindowPixelSize: {x: 1316, y: 1394}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,12 +133,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1266
+    width: 1920
     height: 985
-  m_MinSize: {x: 811, y: 613}
+  m_MinSize: {x: 811, y: 633}
   m_MaxSize: {x: 22006, y: 18063}
   vertical: 0
-  controlID: -1
+  controlID: 67012
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,12 +158,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 899.5
+    width: 1519
     height: 985
-  m_MinSize: {x: 535, y: 613}
+  m_MinSize: {x: 535, y: 633}
   m_MaxSize: {x: 18005, y: 18063}
   vertical: 1
-  controlID: -1
+  controlID: 67013
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,17 +179,17 @@ MonoBehaviour:
   m_Children:
   - {fileID: 6}
   - {fileID: 11}
-  - {fileID: 12}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 899.5
-    height: 629
+    width: 1519
+    height: 718
   m_MinSize: {x: 535, y: 492}
   m_MaxSize: {x: 18005, y: 14042}
   vertical: 0
-  controlID: -1
+  controlID: 67086
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,12 +209,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 343
-    height: 629
+    width: 506
+    height: 718
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 55851
+  controlID: 67140
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,8 +232,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 343
-    height: 346.5
+    width: 506
+    height: 395.5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 8}
@@ -289,10 +262,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 654
+    x: 0
     y: 75
-    width: 342
-    height: 325.5
+    width: 505
+    height: 374.5
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -307,20 +280,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/PolygonPrototype/Materials
     m_Globs: []
   m_ViewMode: 1
-  m_StartGridSize: 40
+  m_StartGridSize: 73
   m_LastFolders:
-  - Assets/Scenes
-  m_LastFoldersGridSize: 40
+  - Assets/PolygonPrototype/Materials
+  m_LastFoldersGridSize: 73
   m_LastProjectPath: /Users/stevenhart/Documents/workspace/ProxiMaze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 318.5}
-    m_SelectedIDs: 884d0000
-    m_LastClickedID: 19848
+    scrollPos: {x: 0, y: 309.5}
+    m_SelectedIDs: 764d0000
+    m_LastClickedID: 19830
     m_ExpandedIDs: 00000000344d0000364d0000384d00003a4d00003c4d00003e4d0000404d0000424d0000444d0000464d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -374,8 +347,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 909c0300
-    m_LastClickedInstanceID: 236688
+    m_SelectedInstanceIDs: ba9c0300de9a0300e6a4feff
+    m_LastClickedInstanceID: 236730
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ac900000565b0000ce520000f45c000068560000b44b0000da6a000062400100ce440100ae850100c08501002a7601004e8a0100ec6d00000a440000845c0100ee540000bc5500002c8a00000294000076720000289d010040710000cab6ffff9e450000dc8600006a8300004c4a0000348500000e8600002ed00000245c00004abb000000000000a852000086530000
     m_RenameOverlay:
@@ -401,8 +374,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 40
+    m_ScrollPosition: {x: 0, y: 124.76929}
+    m_GridSize: 73
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 145
 --- !u!114 &9
@@ -421,9 +394,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 346.5
-    width: 343
-    height: 282.5
+    y: 395.5
+    width: 506
+    height: 322.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 10}
@@ -452,17 +425,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 654
-    y: 421.5
-    width: 342
-    height: 261.5
+    x: 0
+    y: 470.5
+    width: 505
+    height: 301.5
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 909c0300
-      m_LastClickedID: 236688
-      m_ExpandedIDs: a2a9feffe086ffff9cb9ffff40c1ffffbafaffff52fbffff10420000484300005a9c0300909c0300
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e6a4feffa2a9feffe086ffff9cb9ffff40c1ffffbafaffff52fbffff1042000048430000ae9b03005a9c0300ba9c0300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -501,18 +474,135 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 343
+    x: 506
     y: 0
-    width: 283
-    height: 629
+    width: 353
+    height: 718
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 2}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 2}
+  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 506
+    y: 75
+    width: 351
+    height: 697
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 15ecad48026d144a68fd09a0a556556a
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 0
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 9.328317, y: 4.0958776, z: -29.609318}
+    speed: 2
+    m_Value: {x: 9.328317, y: 4.0958776, z: -29.609318}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0.05986208, y: -0.93421966, z: 0.18830362, w: 0.29698774}
+    speed: 2
+    m_Value: {x: 0.059861787, y: -0.93421507, z: 0.1883027, w: 0.29698628}
+  m_Size:
+    m_Target: 1.759702
+    speed: 2
+    m_Value: 1.759702
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -527,107 +617,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 626
+    x: 859
     y: 0
-    width: 273.5
-    height: 629
+    width: 660
+    height: 718
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 2}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1280
-    y: 75
-    width: 271.5
-    height: 608
-  m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1080, y: 1920}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 04000000000000002200000013000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -270
-    m_HBaseRangeMax: 270
-    m_VBaseRangeMin: -480
-    m_VBaseRangeMax: 480
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 271.5
-      height: 587
-    m_Scale: {x: 0.50277776, y: 0.50277776}
-    m_Translation: {x: 135.75, y: 293.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -270
-      y: -583.75696
-      width: 540
-      height: 1167.5139
-    m_MinimalGUI: 1
-  m_defaultScale: 0.50277776
-  m_LastWindowPixelSize: {x: 543, y: 1216}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -638,24 +638,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: ConsolePro3Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 629
-    width: 899.5
-    height: 356
-  m_MinSize: {x: 101, y: 121}
+    y: 718
+    width: 1519
+    height: 267
+  m_MinSize: {x: 201, y: 141}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 236218
+  m_LastSelectedObjectID: -128422
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -706,10 +706,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 654
-    y: 704
-    width: 898.5
-    height: 335
+    x: 0
+    y: 793
+    width: 1518
+    height: 246
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -944,14 +944,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.53145903
+    - e00: 0.15053764
       e01: 0
       e02: 0
-      e03: 782.21423
+      e03: 541.3011
       e10: 0
-      e11: 0.53145903
+      e11: 0.15053764
       e12: 0
-      e13: -132.86475
+      e13: 81.83871
       e20: 0
       e21: 0
       e22: 1
@@ -1128,1205 +1128,19 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 704
-    width: 1526
-    height: 335
+    y: 793
+    width: 1518
+    height: 246
   m_ViewDataDictionary: {fileID: 0}
-  logPanelScroll: {x: 0, y: -76}
+  logPanelScroll: {x: 0, y: 0}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 318260
+  currentFrame: 318333
   logs:
-    lastGrabbedIndex: 3
-    lastGrabbedCount: 4
+    lastGrabbedIndex: -1
+    lastGrabbedCount: 0
     proEntries: []
-    newEntries:
-    - logType: 1
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 0
-      nativeIndex: 0
-      nativeIdentifier: 0
-      originalLog: 'Trigger hit: Maze End'
-      originalStackTrace: 'Trigger hit: Maze End
-
-        UnityEngine.Debug:LogFormat(String,
-        Object[])
-
-        PlayerMazeOperator:OnTriggerEnter(Collider) (at Assets/PlayerMazeOperator.cs:9)
-
-'
-      nativeFileName: Assets/PlayerMazeOperator.cs
-      nativeLineNumber: 9
-      watchName: 
-      logText: 'Trigger hit: Maze End'
-      logTruncatedText: 'Trigger hit: Maze End'
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 00:20:07
-      timeFrame: -1
-      timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/PlayerMazeOperator.cs
-        fileNameWithoutAssets: PlayerMazeOperator.cs
-        fileNameWithoutAssetsPlusLineNumber: PlayerMazeOperator.cs:9
-        fileNameWithoutPath: PlayerMazeOperator.cs
-        fileNameWithoutPathPlusLineNumber: PlayerMazeOperator.cs:9
-        instanceID: -1
-        className: PlayerMazeOperator
-        methodName: OnTriggerEnter
-        namespaceName: None
-        lineNumber: 9
-        charNumber: 0
-        stackLabel: PlayerMazeOperator.OnTriggerEnter()
-        stackLabel2: ' at /PlayerMazeOperator.cs:9'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 0
-      belongsToFilters: []
-      belongsToStandardFilters: []
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 1
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 0
-      nativeIndex: 1
-      nativeIdentifier: 0
-      originalLog: Maze Complete
-      originalStackTrace: 'Maze Complete
-
-        UnityEngine.Debug:LogFormat(String,
-        Object[])
-
-        PlayerMazeOperator:OnTriggerEnter(Collider) (at Assets/PlayerMazeOperator.cs:13)
-
-'
-      nativeFileName: Assets/PlayerMazeOperator.cs
-      nativeLineNumber: 13
-      watchName: 
-      logText: Maze Complete
-      logTruncatedText: Maze Complete
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 00:20:07
-      timeFrame: -1
-      timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/PlayerMazeOperator.cs
-        fileNameWithoutAssets: PlayerMazeOperator.cs
-        fileNameWithoutAssetsPlusLineNumber: PlayerMazeOperator.cs:13
-        fileNameWithoutPath: PlayerMazeOperator.cs
-        fileNameWithoutPathPlusLineNumber: PlayerMazeOperator.cs:13
-        instanceID: -1
-        className: PlayerMazeOperator
-        methodName: OnTriggerEnter
-        namespaceName: None
-        lineNumber: 13
-        charNumber: 0
-        stackLabel: PlayerMazeOperator.OnTriggerEnter()
-        stackLabel2: ' at /PlayerMazeOperator.cs:13'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 0
-      belongsToFilters: []
-      belongsToStandardFilters: []
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 2
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 0
-      nativeIndex: 2
-      nativeIdentifier: 0
-      originalLog: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens reached:
-        capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity
-        to set it manually at startup"
-      originalStackTrace: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens
-        reached: capacity has automatically been increased from 200/50 to 200/125.
-        Use DOTween.SetTweensCapacity to set it manually at startup\nUnityEngine.Debug:LogWarning(Object)\nDG.Tweening.Core.Debugger:LogWarning(Object,
-        Tween) (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:46)\nDG.Tweening.Core.TweenManager:GetSequence()
-        (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:138)\nDG.Tweening.DOTween:Sequence()
-        (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:679)\nProxiRise:TweenDance()
-        (at Assets/ProxiRise.cs:97)\nLevelController:DanceWalls() (at Assets/LevelController.cs:72)\nLevelController:OnLevelCompleteImpl()
-        (at Assets/LevelController.cs:49)\nLevelController:OnLevelComplete() (at
-        Assets/LevelController.cs:36)\nPlayerMazeOperator:OnTriggerEnter(Collider)
-        (at Assets/PlayerMazeOperator.cs:14)\n"
-      nativeFileName: D
-      nativeLineNumber: 0
-      watchName: 
-      logText: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens reached:
-        capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity
-        to set it manually at startup"
-      logTruncatedText: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens
-        reached: capacity has automatically been increased from 200/50 to 200/125.
-        Use DOTween.SetTweensCapacity to set it manually at startup"
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 00:20:07
-      timeFrame: -1
-      timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:46
-        fileNameWithoutPath: Debugger.cs
-        fileNameWithoutPathPlusLineNumber: Debugger.cs:46
-        instanceID: -1
-        className: Debugger
-        methodName: LogWarning
-        namespaceName: DG.Tweening.Core
-        lineNumber: 46
-        charNumber: 0
-        stackLabel: Debugger.LogWarning()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:46'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:138
-        fileNameWithoutPath: TweenManager.cs
-        fileNameWithoutPathPlusLineNumber: TweenManager.cs:138
-        instanceID: -1
-        className: TweenManager
-        methodName: GetSequence
-        namespaceName: DG.Tweening.Core
-        lineNumber: 138
-        charNumber: 0
-        stackLabel: TweenManager.GetSequence()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:138'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:679
-        fileNameWithoutPath: DOTween.cs
-        fileNameWithoutPathPlusLineNumber: DOTween.cs:679
-        instanceID: -1
-        className: DOTween
-        methodName: Sequence
-        namespaceName: DG.Tweening
-        lineNumber: 679
-        charNumber: 0
-        stackLabel: DOTween.Sequence()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:679'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/ProxiRise.cs
-        fileNameWithoutAssets: ProxiRise.cs
-        fileNameWithoutAssetsPlusLineNumber: ProxiRise.cs:97
-        fileNameWithoutPath: ProxiRise.cs
-        fileNameWithoutPathPlusLineNumber: ProxiRise.cs:97
-        instanceID: -1
-        className: ProxiRise
-        methodName: TweenDance
-        namespaceName: None
-        lineNumber: 97
-        charNumber: 0
-        stackLabel: ProxiRise.TweenDance()
-        stackLabel2: ' at /ProxiRise.cs:97'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/LevelController.cs
-        fileNameWithoutAssets: LevelController.cs
-        fileNameWithoutAssetsPlusLineNumber: LevelController.cs:72
-        fileNameWithoutPath: LevelController.cs
-        fileNameWithoutPathPlusLineNumber: LevelController.cs:72
-        instanceID: -1
-        className: LevelController
-        methodName: DanceWalls
-        namespaceName: None
-        lineNumber: 72
-        charNumber: 0
-        stackLabel: LevelController.DanceWalls()
-        stackLabel2: ' at /LevelController.cs:72'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/LevelController.cs
-        fileNameWithoutAssets: LevelController.cs
-        fileNameWithoutAssetsPlusLineNumber: LevelController.cs:49
-        fileNameWithoutPath: LevelController.cs
-        fileNameWithoutPathPlusLineNumber: LevelController.cs:49
-        instanceID: -1
-        className: LevelController
-        methodName: OnLevelCompleteImpl
-        namespaceName: None
-        lineNumber: 49
-        charNumber: 0
-        stackLabel: LevelController.OnLevelCompleteImpl()
-        stackLabel2: ' at /LevelController.cs:49'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/LevelController.cs
-        fileNameWithoutAssets: LevelController.cs
-        fileNameWithoutAssetsPlusLineNumber: LevelController.cs:36
-        fileNameWithoutPath: LevelController.cs
-        fileNameWithoutPathPlusLineNumber: LevelController.cs:36
-        instanceID: -1
-        className: LevelController
-        methodName: OnLevelComplete
-        namespaceName: None
-        lineNumber: 36
-        charNumber: 0
-        stackLabel: LevelController.OnLevelComplete()
-        stackLabel2: ' at /LevelController.cs:36'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/PlayerMazeOperator.cs
-        fileNameWithoutAssets: PlayerMazeOperator.cs
-        fileNameWithoutAssetsPlusLineNumber: PlayerMazeOperator.cs:14
-        fileNameWithoutPath: PlayerMazeOperator.cs
-        fileNameWithoutPathPlusLineNumber: PlayerMazeOperator.cs:14
-        instanceID: -1
-        className: PlayerMazeOperator
-        methodName: OnTriggerEnter
-        namespaceName: None
-        lineNumber: 14
-        charNumber: 0
-        stackLabel: PlayerMazeOperator.OnTriggerEnter()
-        stackLabel2: ' at /PlayerMazeOperator.cs:14'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 0
-      belongsToFilters: []
-      belongsToStandardFilters: []
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 2
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 0
-      nativeIndex: 3
-      nativeIdentifier: 0
-      originalLog: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens reached:
-        capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity
-        to set it manually at startup"
-      originalStackTrace: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens
-        reached: capacity has automatically been increased from 200/125 to 500/125.
-        Use DOTween.SetTweensCapacity to set it manually at startup\nUnityEngine.Debug:LogWarning(Object)\nDG.Tweening.Core.Debugger:LogWarning(Object,
-        Tween) (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:46)\nDG.Tweening.Core.TweenManager:GetTweener()
-        (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:109)\nDG.Tweening.DOTween:ApplyTo(DOGetter`1,
-        DOSetter`1, Vector3, Single, ABSTweenPlugin`3) (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:1024)\nDG.Tweening.DOTween:To(DOGetter`1,
-        DOSetter`1, Vector3, Single) (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:392)\nDG.Tweening.ShortcutExtensions:DOLocalMoveY(Transform,
-        Single, Single, Boolean) (at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/ShortcutExtensions.cs:544)\nProxiRise:TweenDance()
-        (at Assets/ProxiRise.cs:101)\nLevelController:DanceWalls() (at Assets/LevelController.cs:72)\nLevelController:OnLevelCompleteImpl()
-        (at Assets/LevelController.cs:49)\nLevelController:OnLevelComplete() (at
-        Assets/LevelController.cs:36)\nPlayerMazeOperator:OnTriggerEnter(Collider)
-        (at Assets/PlayerMazeOperator.cs:14)\n"
-      nativeFileName: D
-      nativeLineNumber: 0
-      watchName: 
-      logText: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens reached:
-        capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity
-        to set it manually at startup"
-      logTruncatedText: "<color=#0099bc><b>DOTWEEN \u25BA </b></color>Max Tweens
-        reached: capacity has automatically been increased from 200/125 to 500/125.
-        Use DOTween.SetTweensCapacity to set it manually at startup"
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 00:20:07
-      timeFrame: -1
-      timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:46
-        fileNameWithoutPath: Debugger.cs
-        fileNameWithoutPathPlusLineNumber: Debugger.cs:46
-        instanceID: -1
-        className: Debugger
-        methodName: LogWarning
-        namespaceName: DG.Tweening.Core
-        lineNumber: 46
-        charNumber: 0
-        stackLabel: Debugger.LogWarning()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:46'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:109
-        fileNameWithoutPath: TweenManager.cs
-        fileNameWithoutPathPlusLineNumber: TweenManager.cs:109
-        instanceID: -1
-        className: TweenManager
-        methodName: GetTweener
-        namespaceName: DG.Tweening.Core
-        lineNumber: 109
-        charNumber: 0
-        stackLabel: TweenManager.GetTweener()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:109'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:1024
-        fileNameWithoutPath: DOTween.cs
-        fileNameWithoutPathPlusLineNumber: DOTween.cs:1024
-        instanceID: -1
-        className: DOTween
-        methodName: ApplyTo
-        namespaceName: DG.Tweening
-        lineNumber: 1024
-        charNumber: 0
-        stackLabel: DOTween.ApplyTo()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:1024'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:392
-        fileNameWithoutPath: DOTween.cs
-        fileNameWithoutPathPlusLineNumber: DOTween.cs:392
-        instanceID: -1
-        className: DOTween
-        methodName: To
-        namespaceName: DG.Tweening
-        lineNumber: 392
-        charNumber: 0
-        stackLabel: DOTween.To()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:392'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/ShortcutExtensions.cs
-        fileNameWithoutAssets: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/ShortcutExtensions.cs
-        fileNameWithoutAssetsPlusLineNumber: D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/ShortcutExtensions.cs:544
-        fileNameWithoutPath: ShortcutExtensions.cs
-        fileNameWithoutPathPlusLineNumber: ShortcutExtensions.cs:544
-        instanceID: -1
-        className: ShortcutExtensions
-        methodName: DOLocalMoveY
-        namespaceName: DG.Tweening
-        lineNumber: 544
-        charNumber: 0
-        stackLabel: ShortcutExtensions.DOLocalMoveY()
-        stackLabel2: ' at D:/DG/_Develop/__UNITY3_CLASSES/_Holoville/__DOTween/_DOTween.Assembly/DOTween/ShortcutExtensions.cs:544'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/ProxiRise.cs
-        fileNameWithoutAssets: ProxiRise.cs
-        fileNameWithoutAssetsPlusLineNumber: ProxiRise.cs:101
-        fileNameWithoutPath: ProxiRise.cs
-        fileNameWithoutPathPlusLineNumber: ProxiRise.cs:101
-        instanceID: -1
-        className: ProxiRise
-        methodName: TweenDance
-        namespaceName: None
-        lineNumber: 101
-        charNumber: 0
-        stackLabel: ProxiRise.TweenDance()
-        stackLabel2: ' at /ProxiRise.cs:101'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/LevelController.cs
-        fileNameWithoutAssets: LevelController.cs
-        fileNameWithoutAssetsPlusLineNumber: LevelController.cs:72
-        fileNameWithoutPath: LevelController.cs
-        fileNameWithoutPathPlusLineNumber: LevelController.cs:72
-        instanceID: -1
-        className: LevelController
-        methodName: DanceWalls
-        namespaceName: None
-        lineNumber: 72
-        charNumber: 0
-        stackLabel: LevelController.DanceWalls()
-        stackLabel2: ' at /LevelController.cs:72'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/LevelController.cs
-        fileNameWithoutAssets: LevelController.cs
-        fileNameWithoutAssetsPlusLineNumber: LevelController.cs:49
-        fileNameWithoutPath: LevelController.cs
-        fileNameWithoutPathPlusLineNumber: LevelController.cs:49
-        instanceID: -1
-        className: LevelController
-        methodName: OnLevelCompleteImpl
-        namespaceName: None
-        lineNumber: 49
-        charNumber: 0
-        stackLabel: LevelController.OnLevelCompleteImpl()
-        stackLabel2: ' at /LevelController.cs:49'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/LevelController.cs
-        fileNameWithoutAssets: LevelController.cs
-        fileNameWithoutAssetsPlusLineNumber: LevelController.cs:36
-        fileNameWithoutPath: LevelController.cs
-        fileNameWithoutPathPlusLineNumber: LevelController.cs:36
-        instanceID: -1
-        className: LevelController
-        methodName: OnLevelComplete
-        namespaceName: None
-        lineNumber: 36
-        charNumber: 0
-        stackLabel: LevelController.OnLevelComplete()
-        stackLabel2: ' at /LevelController.cs:36'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/PlayerMazeOperator.cs
-        fileNameWithoutAssets: PlayerMazeOperator.cs
-        fileNameWithoutAssetsPlusLineNumber: PlayerMazeOperator.cs:14
-        fileNameWithoutPath: PlayerMazeOperator.cs
-        fileNameWithoutPathPlusLineNumber: PlayerMazeOperator.cs:14
-        instanceID: -1
-        className: PlayerMazeOperator
-        methodName: OnTriggerEnter
-        namespaceName: None
-        lineNumber: 14
-        charNumber: 0
-        stackLabel: PlayerMazeOperator.OnTriggerEnter()
-        stackLabel2: ' at /PlayerMazeOperator.cs:14'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 0
-      belongsToFilters: []
-      belongsToStandardFilters: []
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
+    newEntries: []
     resetCompilerErrorEntries: 1
     compilerErrorEntries: []
     timeFrames: 
@@ -2346,9 +1160,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 899.5
+    x: 1519
     y: 0
-    width: 366.5
+    width: 401
     height: 985
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -2378,9 +1192,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1553.5
+    x: 1519
     y: 75
-    width: 365.5
+    width: 400
     height: 964
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -2389,7 +1203,7 @@ MonoBehaviour:
     m_CachedPref: 215
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: -88858
   m_LastVerticalScrollValue: 0
   m_AssetGUID: 
   m_InstanceID: 0
