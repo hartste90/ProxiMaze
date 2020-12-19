@@ -28,10 +28,18 @@ public class LevelController : MonoBehaviour
     public Transform topViewAnchor;
     public Transform mazeCenterAnchor;
     public FirstPersonController playerController;
+    public ControllerInterpreter playerInterpreter;
+    public List<ParticleSystem> celebrationParticlesList;
 
     public static void OnLevelComplete()
     {
         Instance.OnLevelCompleteImpl();
+        float delayMax = 1f;
+        foreach(ParticleSystem cannon in Instance.celebrationParticlesList)
+        {
+            cannon.startDelay = Random.Range(0f, delayMax);
+            cannon.Play();
+        }
     }
 
     public void OnLevelCompleteImpl()
@@ -43,16 +51,17 @@ public class LevelController : MonoBehaviour
 
     void DisablePlayerController()
     {
+        playerInterpreter.Roll();
         playerController.enabled = false;
     }
 
     void MoveCameraAbove()
     {
-        Camera.main.transform.SetParent(null);
-        //Camera.main.transform.DOLookAt(mazeCenterAnchor.position, .75f);
-        Camera.main.transform.DORotate(new Vector3(90f, 0f, 0f), 1.9f);
-
-        Camera.main.transform.DOMove(topViewAnchor.position, 2f).SetEase(Ease.OutQuad);
+        float delay = .5f;
+        Camera.main.transform.SetParent(topViewAnchor);
+        Camera.main.transform.DOLocalRotate(Vector3.zero, 1.9f).SetDelay(delay);
+        Camera.main.transform.DOLocalMove(Vector3.zero, 2f).SetEase(Ease.OutQuad).SetDelay(delay);
+        mazeCenterAnchor.DOBlendableLocalRotateBy(Vector3.up * 360, 10f, RotateMode.FastBeyond360).SetDelay(delay).SetLoops(-1).SetEase(Ease.Linear);
     }
 
     void DanceWalls()

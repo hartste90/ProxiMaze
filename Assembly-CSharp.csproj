@@ -105,12 +105,14 @@
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
     <Compile Include="Assets/LevelController.cs" />
     <Compile Include="Assets/PlayerMazeOperator.cs" />
+    <Compile Include="Assets/WallView.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
      <None Include="Assets/BizulkaProduction/Stickman/README.txt" />
      <None Include="Assets/NiceVibrations/OlderVersions/v2.0.1/NiceVibrations-v-2-0-1-readme.txt" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Object.shader" />
+     <None Include="Assets/Shaders/ScreenGradient.shader" />
      <None Include="Assets/NiceVibrations/ThirdParty/Newtonsoft/NewtonsoftJsonLicense.txt" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Global.shader" />
      <None Include="Assets/NiceVibrations/Common/Plugins/Android/AndroidManifest.xml" />
