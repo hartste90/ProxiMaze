@@ -19,6 +19,8 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public string horizontalAxisName = "Horizontal"; // The name given to the horizontal axis for the cross platform input
 		public string verticalAxisName = "Vertical"; // The name given to the vertical axis for the cross platform input
 
+
+		Vector2 touchStartPos;
 		Vector3 m_StartPos;
 		bool m_UseX; // Toggle for using the x axis
 		bool m_UseY; // Toggle for using the Y axis
@@ -73,6 +75,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnDrag(PointerEventData data)
 		{
+			
 			Vector3 newPos = Vector3.zero;
 
 			if (m_UseX)
@@ -88,19 +91,27 @@ namespace UnityStandardAssets.CrossPlatformInput
 				delta = Mathf.Clamp(delta, -MovementRange, MovementRange);
 				newPos.y = delta;
 			}
+			
 			transform.position = new Vector3(m_StartPos.x + newPos.x, m_StartPos.y + newPos.y, m_StartPos.z + newPos.z);
 			UpdateVirtualAxes(transform.position);
-		}
+			Debug.Log("Axis: " + CrossPlatformInputManager.GetAxisRaw(horizontalAxisName) + ", " + CrossPlatformInputManager.GetAxis(verticalAxisName));
+        }
 
 
 		public void OnPointerUp(PointerEventData data)
 		{
 			transform.position = m_StartPos;
-			UpdateVirtualAxes(m_StartPos);
+            UpdateVirtualAxes(m_StartPos);
+        }
+
+
+		public void OnPointerDown(PointerEventData data)
+		{
+			touchStartPos = data.position;
+			//m_StartPos = transform.position;
+			m_StartPos = data.position;
+
 		}
-
-
-		public void OnPointerDown(PointerEventData data) { }
 
 		void OnDisable()
 		{

@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/SimpleMouseRotator.cs">
     <Files>
-      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" Line="199" Column="13" />
-      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" />
-      <File FileName="Assets/ProxiRise.cs" />
-      <File FileName="Assets/LevelController.cs" Line="40" Column="30" />
-      <File FileName="../Word-Maker/Assets/Scripts/GameController.cs" />
-      <File FileName="Assets/PlayerMazeOperator.cs" />
-      <File FileName="Assets/WallView.cs" Line="12" Column="103" />
-      <File FileName="Assets/Scripts/HiResScreenShots.cs" Line="1" Column="1" />
-      <File FileName="Assets/Shaders/ScreenGradient.shader" Line="93" Column="2" />
+      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" Line="175" Column="6" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" Line="92" Column="1" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" Line="29" Column="36" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" Line="6" Column="28" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" Line="8" Column="27" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" Line="6" Column="37" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" Line="24" Column="39" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" Line="83" Column="9" />
+      <File FileName="Assets/Standard Assets/Utility/SimpleMouseRotator.cs" Line="73" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,8 +20,16 @@
                 <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="Scripts" expanded="True" />
-              <Node name="Shaders" expanded="True" />
-              <Node name="LevelController.cs" selected="True" />
+              <Node name="Standard Assets" expanded="True">
+                <Node name="CrossPlatformInput" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="PlatformSpecific" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Utility" expanded="True">
+                  <Node name="SimpleMouseRotator.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -30,9 +38,16 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="696091bc-5698-4500-915f-a7e1d7a1017c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2952d26e-cf89-47ae-b49e-af20369e1dbc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" relfile="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" line="44" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" relfile="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" line="224" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" relfile="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" line="216" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" relfile="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" line="230" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" relfile="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" line="108" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" relfile="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

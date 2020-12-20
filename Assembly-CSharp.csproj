@@ -106,6 +106,8 @@
     <Compile Include="Assets/LevelController.cs" />
     <Compile Include="Assets/PlayerMazeOperator.cs" />
     <Compile Include="Assets/WallView.cs" />
+    <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
+    <Compile Include="Assets/Scripts/TestScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
