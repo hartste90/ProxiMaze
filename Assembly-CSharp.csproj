@@ -57,7 +57,7 @@
   <ItemGroup>
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/ReliableChannel.cs" />
     <Compile Include="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" />
-    <Compile Include="Assets/ProxiRise.cs" />
+    <Compile Include="Assets/Scripts/ProxiRise.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ExampleGUIBorders.cs" />
     <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2TimeSlider.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPeerCollection.cs" />
@@ -103,30 +103,55 @@
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
-    <Compile Include="Assets/LevelController.cs" />
-    <Compile Include="Assets/PlayerMazeOperator.cs" />
-    <Compile Include="Assets/WallView.cs" />
+    <Compile Include="Assets/Scripts/LevelController.cs" />
+    <Compile Include="Assets/Scripts/PlayerMazeOperator.cs" />
+    <Compile Include="Assets/Scripts/WallView.cs" />
     <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
     <Compile Include="Assets/Scripts/TestScript.cs" />
     <Compile Include="Assets/Low Poly Water/Scripts/Water.cs" />
+    <Compile Include="Assets/Scripts/TutorialController.cs" />
+    <Compile Include="Assets/Scripts/TrialController.cs" />
+    <Compile Include="Assets/Scripts/TrialData.cs" />
+    <Compile Include="Assets/GameController.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Glass_Global.shader" />
      <None Include="Assets/BizulkaProduction/Stickman/README.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <None Include="Assets/NiceVibrations/OlderVersions/v2.0.1/NiceVibrations-v-2-0-1-readme.txt" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Object.shader" />
      <None Include="Assets/Shaders/ScreenGradient.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets/NiceVibrations/ThirdParty/Newtonsoft/NewtonsoftJsonLicense.txt" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Global.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <None Include="Assets/NiceVibrations/Common/Plugins/Android/AndroidManifest.xml" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/NiceVibrations/OlderVersions/v1.7/NiceVibrations-v-1-7-readme.txt" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <None Include="Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <None Include="Assets/NiceVibrations/readme.txt" />
      <None Include="Assets/Super Confetti FX/Super Confetti FX.txt" />
      <None Include="Assets/NiceVibrations/license.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/LunarConsole/readme.txt" />
      <None Include="Assets/Low Poly Water/Shaders/FlatShadedWaterWithEdgeBlend.shader" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Glass_Object.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

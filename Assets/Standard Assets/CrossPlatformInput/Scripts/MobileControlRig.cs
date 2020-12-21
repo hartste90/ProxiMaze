@@ -58,6 +58,7 @@ namespace UnityStandardAssets.CrossPlatformInput
         private void OnEnable()
         {
             EditorApplication.update += Update;
+            CheckEnableControlRig();
         }
 
 
@@ -69,18 +70,18 @@ namespace UnityStandardAssets.CrossPlatformInput
 
         private void Update()
         {
-            CheckEnableControlRig();
+            //CheckEnableControlRig();
         }
 #endif
 
 
         private void CheckEnableControlRig()
         {
-//#if MOBILE_INPUT
+#if MOBILE_INPUT
 		EnableControlRig(true);
-//#else
+#else
             //EnableControlRig(true);
-//#endif
+#endif
         }
 
 

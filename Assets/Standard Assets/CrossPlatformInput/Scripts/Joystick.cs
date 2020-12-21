@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.CrossPlatformInput
 {
@@ -20,6 +21,10 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public string verticalAxisName = "Vertical"; // The name given to the vertical axis for the cross platform input
 
 
+		public Image touchSpot;
+		public Image joystickRange;
+		public Image joystickPlaceholder;
+
 		Vector2 touchStartPos;
 		Vector3 m_StartPos;
 		bool m_UseX; // Toggle for using the x axis
@@ -35,8 +40,17 @@ namespace UnityStandardAssets.CrossPlatformInput
         void Start()
         {
             m_StartPos = transform.position;
-        }
+			ShowJoystick(false);
+			
+		}
 
+		void ShowJoystick(bool shouldShow)
+        {
+			joystickRange.gameObject.SetActive(shouldShow);
+			touchSpot.gameObject.SetActive(shouldShow);
+			joystickPlaceholder.gameObject.SetActive(!shouldShow);
+
+		}
 		void UpdateVirtualAxes(Vector3 value)
 		{
 			var delta = m_StartPos - value;
@@ -93,15 +107,34 @@ namespace UnityStandardAssets.CrossPlatformInput
 			}
 			
 			transform.position = new Vector3(m_StartPos.x + newPos.x, m_StartPos.y + newPos.y, m_StartPos.z + newPos.z);
+			Vector3 maxDistanceJoystickPos = GetDistJoystick(transform.position);
+			touchSpot.transform.position = maxDistanceJoystickPos; // transform.position;
 			UpdateVirtualAxes(transform.position);
-			Debug.Log("Axis: " + CrossPlatformInputManager.GetAxisRaw(horizontalAxisName) + ", " + CrossPlatformInputManager.GetAxis(verticalAxisName));
+        }
+
+		Vector3 GetDistJoystick(Vector3 rawPos)
+        {
+			if (Vector3.Distance(rawPos, m_StartPos) >= MovementRange)
+			{
+				//get vector direction
+				Vector3 direction = rawPos - m_StartPos;
+				direction.Normalize();
+
+				//mult to max
+				return m_StartPos + (direction * MovementRange);
+			}
+			else
+            {
+				return rawPos;
+            }
         }
 
 
 		public void OnPointerUp(PointerEventData data)
 		{
 			transform.position = m_StartPos;
-            UpdateVirtualAxes(m_StartPos);
+			ShowJoystick(false);
+			UpdateVirtualAxes(m_StartPos);
         }
 
 
@@ -110,6 +143,10 @@ namespace UnityStandardAssets.CrossPlatformInput
 			touchStartPos = data.position;
 			//m_StartPos = transform.position;
 			m_StartPos = data.position;
+			ShowJoystick(true);
+			joystickRange.transform.position = data.position;
+			touchSpot.transform.position = data.position;
+
 
 		}
 
