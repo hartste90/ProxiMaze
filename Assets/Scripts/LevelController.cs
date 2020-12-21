@@ -38,7 +38,7 @@ public class LevelController : MonoBehaviour
         Instance.BeginTrialImpl();
     }
 
-    public void BeginTrialImpl()
+    void BeginTrialImpl()
     {
         //disappear old trial if necessary
         //appear next trial
@@ -47,18 +47,27 @@ public class LevelController : MonoBehaviour
         playerController = GameController.GetPlayer();
         trialController.SetPlayer(playerController);
         //allow input
-        OnTrialBegin();
-
-    }
-
-    public static void OnTrialBegin()
-    {
         TutorialController.ShowJoystickTutorial();
+        trialController.BeginTrial();
     }
+
+    public static void EndTrial()
+    {
+        Instance.EndTrialImpl();
+    }
+
+    void EndTrialImpl()
+    {
+        trialController.EndTrial();
+        trialController = null;
+        trialData = null;
+    }
+
 
     public static void OnMazeEndReached()
     {
         Instance.trialController.OnMazeEndReached();
+        GameController.OnMazeEndReached();
     }
 
     

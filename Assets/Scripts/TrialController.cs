@@ -10,8 +10,7 @@ public class TrialController : MonoBehaviour
     public Transform mazeTopViewAnchor;
     public Transform wallParent;
     
-    public ControllerInterpreter playerInterpreter;
-    public List<ParticleSystem> celebrationParticlesList;
+    public Transform fireworksParent;
 
     private List<WallView> wallsList;
 
@@ -24,6 +23,11 @@ public class TrialController : MonoBehaviour
         }
     }
 
+    public void BeginTrial()
+    {
+        GameController.GetPlayer().enabled = true;
+    }
+
     public Vector3 GetPlayerStartPosition()
     {
         return playerStartAnchor.position;
@@ -31,7 +35,9 @@ public class TrialController : MonoBehaviour
 
     public void SetPlayer(FirstPersonController playerSet)
     {
+        GameController.GetPlayer().GetComponentInChildren<TrailRenderer>().enabled = false;
         GameController.GetPlayer().transform.position = GetPlayerStartPosition();
+        GameController.GetPlayer().GetComponentInChildren<TrailRenderer>().enabled = true;
     }
 
     public void OnMazeEndReached()
@@ -39,6 +45,16 @@ public class TrialController : MonoBehaviour
         DisablePlayerController();
         MoveCameraAbove();
         DanceWalls();
+        PlayFireworks();
+
+    }
+
+    void PlayFireworks()
+    {
+        foreach(Transform t in fireworksParent)
+        {
+            t.GetComponent<ParticleSystem>().Play();
+        }
     }
 
     void DisablePlayerController()
@@ -64,6 +80,19 @@ public class TrialController : MonoBehaviour
             obj.GetComponent<ProxiRise>().TweenDance();
         }
 
+    }
+
+    public void EndTrial()
+    {
+        ReturnCameraToPlayer();
+        Destroy(gameObject);
+
+    }
+
+    void ReturnCameraToPlayer()
+    {
+        Camera.main.transform.SetParent(GameController.GetPlayer().transform);
+        GameController.GetPlayer().ResetCamera();
     }
 
 }

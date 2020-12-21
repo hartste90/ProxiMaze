@@ -113,6 +113,8 @@
     <Compile Include="Assets/Scripts/TrialController.cs" />
     <Compile Include="Assets/Scripts/TrialData.cs" />
     <Compile Include="Assets/GameController.cs" />
+    <Compile Include="Assets/UIController.cs" />
+    <Compile Include="Assets/TrialCompletePanel.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

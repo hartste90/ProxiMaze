@@ -268,9 +268,7 @@ MonoBehaviour:
   mazeCenterAnchor: {fileID: 1980529930528210249}
   mazeTopViewAnchor: {fileID: 1980529932657854390}
   wallParent: {fileID: 1980529931108959207}
-  playerController: {fileID: 0}
-  playerInterpreter: {fileID: 0}
-  celebrationParticlesList: []
+  fireworksParent: {fileID: 1978177336649598031}
 --- !u!1 &1980529932657854385
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,3 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: PlayerTrailRenderer
+    uniqueID: 313200667
+    locked: 0
