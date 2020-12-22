@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class GameController : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class GameController : MonoBehaviour
     public Camera cameraPrefab;
     public FirstPersonController playerPrefab;
     public UIController uiController;
+    public Joystick joystick;
 
     FirstPersonController player;
     // Start is called before the first frame update
@@ -72,6 +74,17 @@ public class GameController : MonoBehaviour
     {
         uiController.SetLevelText("Level " + (currentTrialIdx + 1));
         LevelController.BeginTrial(trialDataList[currentTrialIdx]);
+        EnableJoystick();
     }
 
+    public static void DisableJoystick()
+    {
+        Instance.joystick.transform.parent.gameObject.SetActive(false);
+    }
+
+    public static void EnableJoystick()
+    {
+        Instance.joystick.transform.parent.gameObject.SetActive(true);
+        Instance.joystick.ResetJoystick();
+    }
 }

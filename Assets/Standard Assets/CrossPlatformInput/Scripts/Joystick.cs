@@ -32,19 +32,15 @@ namespace UnityStandardAssets.CrossPlatformInput
 		CrossPlatformInputManager.VirtualAxis m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
 		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
 
-		void OnEnable()
-		{
-			CreateVirtualAxes();
-		}
-
         void Start()
         {
             m_StartPos = transform.position;
 			ShowJoystick(false);
-			
+			CreateVirtualAxes();
+
 		}
 
-		void ShowJoystick(bool shouldShow)
+		public void ShowJoystick(bool shouldShow)
         {
 			joystickRange.gameObject.SetActive(shouldShow);
 			touchSpot.gameObject.SetActive(shouldShow);
@@ -132,10 +128,16 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnPointerUp(PointerEventData data)
 		{
+			ResetJoystick();
+			
+        }
+
+		public void ResetJoystick()
+        {
 			transform.position = m_StartPos;
 			ShowJoystick(false);
 			UpdateVirtualAxes(m_StartPos);
-        }
+		}
 
 
 		public void OnPointerDown(PointerEventData data)
@@ -150,17 +152,6 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		}
 
-		void OnDisable()
-		{
-			// remove the joysticks from the cross platform input
-			if (m_UseX)
-			{
-				m_HorizontalVirtualAxis.Remove();
-			}
-			if (m_UseY)
-			{
-				m_VerticalVirtualAxis.Remove();
-			}
-		}
+
 	}
 }

@@ -13,6 +13,7 @@ public class TrialController : MonoBehaviour
     public Transform fireworksParent;
 
     private List<WallView> wallsList;
+    private Transform mazeEnd;
 
     private void Awake()
     {
@@ -21,11 +22,14 @@ public class TrialController : MonoBehaviour
         {
             wallsList.Add(t.GetComponent<WallView>());
         }
+        mazeEnd = fireworksParent;
     }
 
     public void BeginTrial()
     {
         GameController.GetPlayer().enabled = true;
+        mazeEnd = fireworksParent;
+        ReturnCameraToPlayer();
     }
 
     public Vector3 GetPlayerStartPosition()
@@ -61,6 +65,7 @@ public class TrialController : MonoBehaviour
     {
         GameController.GetPlayer().GetComponent<ControllerInterpreter>().Roll();
         GameController.GetPlayer().enabled = false;
+        GameController.DisableJoystick();
     }
 
     void MoveCameraAbove()
@@ -84,15 +89,44 @@ public class TrialController : MonoBehaviour
 
     public void EndTrial()
     {
-        ReturnCameraToPlayer();
         Destroy(gameObject);
-
     }
 
     void ReturnCameraToPlayer()
     {
         Camera.main.transform.SetParent(GameController.GetPlayer().transform);
-        GameController.GetPlayer().ResetCamera();
+        //using the x,z from rotation
+        Quaternion ogRotation = GameController.GetPlayer().GetOGLocalCameraRotation();
+        Vector3 ogPosition = GameController.GetPlayer().GetOGCameraLocalPosition();
+        //using the y from position
+        float height = GameController.GetPlayer().GetOGCameraLocalPosition().y;
+        //create the new position (x, z) ==> From direction from player to target * -12
+        Vector3 dir = GameController.GetPlayer().transform.position - fireworksParent.position;
+        dir.Normalize();
+        Vector3 newPos = ogPosition;
+        MoveCameraToPosition(newPos);
+
+        //create new rotation with y pointed at target (may not be correct if we do LOOKAT from original position)
+        //Sequence s = DOTween.Sequence();
+        //s.Append()
+
+        Camera.main.transform.DOLocalRotate(ogRotation.eulerAngles, 1f);
+        //FocusCameraOnTarget();
+        //Vector3 ogLocalPos = GameController.GetPlayer().GetOGCameraLocalPosition();
+        //ogLocalPos = new Vector3(ogLocalPos.x, ogLocalPos.y, -12);
+        //MoveCameraBehindPlayer(ogLocalPos);
+        //face camera to level target with player between camera and target
+
+    }
+
+    void FocusCameraOnTarget()
+    {
+        Camera.main.transform.DOLookAt(mazeEnd.position, 1f, AxisConstraint.None);
+    }
+
+    void MoveCameraToPosition(Vector3 targetPos)
+    {
+        Camera.main.transform.DOLocalMove(targetPos, 1f);
     }
 
 }

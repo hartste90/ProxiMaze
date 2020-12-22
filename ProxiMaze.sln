@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarConsoleEditor", "Lunar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{656DD7A0-1C6D-29BD-9324-3EB0133B03C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{B4B73A7E-9728-8B61-CD6E-A75571D7D8CC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations.Editor", "MoreMountains.NiceVibrations.Editor.csproj", "{07DEB18D-3322-F491-C1DE-F05222AD5AE9}"
 EndProject
 Global
@@ -69,6 +71,10 @@ Global
 		{656DD7A0-1C6D-29BD-9324-3EB0133B03C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{656DD7A0-1C6D-29BD-9324-3EB0133B03C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{656DD7A0-1C6D-29BD-9324-3EB0133B03C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B73A7E-9728-8B61-CD6E-A75571D7D8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B73A7E-9728-8B61-CD6E-A75571D7D8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B73A7E-9728-8B61-CD6E-A75571D7D8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B73A7E-9728-8B61-CD6E-A75571D7D8CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07DEB18D-3322-F491-C1DE-F05222AD5AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07DEB18D-3322-F491-C1DE-F05222AD5AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07DEB18D-3322-F491-C1DE-F05222AD5AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU

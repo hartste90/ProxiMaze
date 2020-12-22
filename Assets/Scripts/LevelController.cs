@@ -41,10 +41,13 @@ public class LevelController : MonoBehaviour
     void BeginTrialImpl()
     {
         //disappear old trial if necessary
-        //appear next trial
-        trialController = Instantiate<TrialController>(trialData.trialPrefab, trialParent);
         //move OR create player if necessary
         playerController = GameController.GetPlayer();
+        //appear next trial
+        trialController = Instantiate<TrialController>(trialData.trialPrefab, trialParent);
+        Vector3 offset = playerController.transform.position - trialController.GetPlayerStartPosition();
+        trialController.transform.position = new Vector3(offset.x, 0, offset.z);
+        
         trialController.SetPlayer(playerController);
         //allow input
         TutorialController.ShowJoystickTutorial();

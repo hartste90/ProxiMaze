@@ -55,6 +55,7 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/PlayerMazeOperator.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/ReliableChannel.cs" />
     <Compile Include="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" />
     <Compile Include="Assets/Scripts/ProxiRise.cs" />
@@ -66,8 +67,11 @@
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControl.cs" />
     <Compile Include="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCamera.cs" />
+    <Compile Include="Assets/Scripts/WallView.cs" />
+    <Compile Include="Assets/Scripts/LevelController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPeer.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetEndPoint.cs" />
+    <Compile Include="Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDataReader.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetManager.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetConstants.cs" />
@@ -75,10 +79,12 @@
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPacket.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/PlayerPrefsPro.cs" />
     <Compile Include="Assets/HeroicTraversal - Humanoid animations/SmoothFollow.cs" />
+    <Compile Include="Assets/Scripts/TrialData.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYHorizontal.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/INetEventListener.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetThread.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NatPunchModule.cs" />
+    <Compile Include="Assets/Scripts/TutorialController.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/CreditsDisplay.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/SimpleChannel.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/PPPTest_LoadSign.cs" />
@@ -90,31 +96,25 @@
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/PPPTest_DataManager.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/FastBitConverter.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/HoverTexts.cs" />
+    <Compile Include="Assets/UIController.cs" />
     <Compile Include="Assets/ConsolePro/ConsoleProDebug.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/rotate.cs" />
+    <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
+    <Compile Include="Assets/TrialCompletePanel.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControlXY.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/HoverTextDM.cs" />
+    <Compile Include="Assets/Scripts/TrialController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDataWriter.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/SequencedChannel.cs" />
+    <Compile Include="Assets/GameController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" />
+    <Compile Include="Assets/Scripts/TestScript.cs" />
     <Compile Include="Assets/ConsolePro/Remote/ConsoleProRemoteServer.cs" />
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
-    <Compile Include="Assets/Scripts/LevelController.cs" />
-    <Compile Include="Assets/Scripts/PlayerMazeOperator.cs" />
-    <Compile Include="Assets/Scripts/WallView.cs" />
-    <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
-    <Compile Include="Assets/Scripts/TestScript.cs" />
-    <Compile Include="Assets/Low Poly Water/Scripts/Water.cs" />
-    <Compile Include="Assets/Scripts/TutorialController.cs" />
-    <Compile Include="Assets/Scripts/TrialController.cs" />
-    <Compile Include="Assets/Scripts/TrialData.cs" />
-    <Compile Include="Assets/GameController.cs" />
-    <Compile Include="Assets/UIController.cs" />
-    <Compile Include="Assets/TrialCompletePanel.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -129,8 +129,10 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets/NiceVibrations/ThirdParty/Newtonsoft/NewtonsoftJsonLicense.txt" />
+     <None Include="Assets/LowPolyWater_Pack/Shaders/WaterShaded.shader" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Global.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/LowPolyWater_Pack/LowPoly Island/Credits.txt" />
      <None Include="Assets/NiceVibrations/Common/Plugins/Android/AndroidManifest.xml" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -147,7 +149,6 @@
      <None Include="Assets/NiceVibrations/license.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/LunarConsole/readme.txt" />
-     <None Include="Assets/Low Poly Water/Shaders/FlatShadedWaterWithEdgeBlend.shader" />
      <None Include="Assets/PolygonPrototype/Shaders/Prototype_Glass_Object.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
