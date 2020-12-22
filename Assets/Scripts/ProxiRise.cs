@@ -18,8 +18,8 @@ public class ProxiRise : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		playerTransform = GameObject.FindGameObjectsWithTag("Player")[0].transform;
-        //SetHeight(startHeight);
-        TweenToHidden();
+        SetHeight(startHeight);
+        //TweenToHidden();
         //TweenDance();
     }
 
@@ -70,10 +70,13 @@ public class ProxiRise : MonoBehaviour {
 		transform.localPosition = new Vector3(transform.localPosition.x, heightSet, transform.localPosition.z);
 	}
 
-	void TweenToHidden()
+	public void TweenToHidden()
 	{
 		KillMyTweens();
-		transform.DOLocalMoveY(startHeight, .01f).SetId("TweenToHidden" + gameObject.GetInstanceID());
+		transform.DOLocalMoveY(startHeight, .2f).SetId("TweenToHidden" + gameObject.GetInstanceID()).OnComplete(
+			() => {
+				Destroy(gameObject);
+				});
 	}
 
 	void TweenToTall()

@@ -64,16 +64,17 @@ public class GameController : MonoBehaviour
     public static void OnContinueButtonPressed()
     {
         Instance.uiController.ToggleTrialCompletePanel();
-        LevelController.EndTrial();
         Instance.currentTrialIdx++;
-        Instance.BeginLevel();
+        LevelController.TransitionToTrial(Instance.trialDataList[Instance.currentTrialIdx]);
+        //Instance.currentTrialIdx++;
+        //Instance.BeginLevel();
         
     }
 
-    public void BeginLevel()
+    public static void OnBeginTrial()
     {
-        uiController.SetLevelText("Level " + (currentTrialIdx + 1));
-        LevelController.BeginTrial(trialDataList[currentTrialIdx]);
+        Instance.uiController.SetLevelText("Level " + (Instance.currentTrialIdx + 1));
+        //LevelController.BeginTrial(Instance.trialDataList[Instance.currentTrialIdx]);
         EnableJoystick();
     }
 

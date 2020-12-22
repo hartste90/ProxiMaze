@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProxiRise.cs">
     <Files>
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" Line="131" Column="18" />
-      <File FileName="Assets/Scripts/TrialController.cs" Line="28" Column="24" />
-      <File FileName="Assets/GameController.cs" Line="88" Column="43" />
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" Line="92" Column="54" />
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" Line="1" Column="1" />
-      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" Line="85" Column="22" />
-      <File FileName="Assets/Scripts/LevelController.cs" Line="46" Column="21" />
+      <File FileName="Assets/GameController.cs" Line="78" Column="1" />
+      <File FileName="Assets/Scripts/LevelController.cs" Line="72" Column="39" />
+      <File FileName="Assets/Scripts/TrialController.cs" Line="118" Column="1" />
+      <File FileName="Assets/Scripts/ProxiRise.cs" Line="76" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +15,7 @@
                 <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="LevelController.cs" selected="True" />
+                <Node name="ProxiRise.cs" selected="True" />
               </Node>
               <Node name="Standard Assets" expanded="True">
                 <Node name="CrossPlatformInput" expanded="True">
@@ -33,9 +30,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1c9d46d-e768-4ad0-af0b-5c11b132ce59" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ceecaa8-04a8-47cb-b3b1-6245c54d2e38" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/GameController.cs" relfile="Assets/GameController.cs" line="78" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -26,16 +26,31 @@ public class LevelController : MonoBehaviour
     #endregion
 
     public Transform trialParent;
+    public Transform environment;
 
     TrialData trialData;
     TrialController trialController;
     FirstPersonController playerController;
 
+    public static void TransitionToTrial(TrialData data)
+    {
+        Instance.TransitionToTrialImpl(data);
+    }
+
+    public void TransitionToTrialImpl(TrialData data)
+    {
+        //outro last trial
+        EndTrialImpl();
+        //intro this trial
+        trialData = data;
+        Invoke("BeginTrialImpl", .4f);
+    }
 
     public static void BeginTrial(TrialData trialData)
     {
         Instance.trialData = trialData;
         Instance.BeginTrialImpl();
+        
     }
 
     void BeginTrialImpl()
@@ -47,11 +62,14 @@ public class LevelController : MonoBehaviour
         trialController = Instantiate<TrialController>(trialData.trialPrefab, trialParent);
         Vector3 offset = playerController.transform.position - trialController.GetPlayerStartPosition();
         trialController.transform.position = new Vector3(offset.x, 0, offset.z);
-        
+        environment.position = new Vector3(trialController.mazeCenterAnchor.position.x, 0, trialController.mazeCenterAnchor.position.z);
+
+
         trialController.SetPlayer(playerController);
         //allow input
         TutorialController.ShowJoystickTutorial();
         trialController.BeginTrial();
+        GameController.OnBeginTrial();
     }
 
     public static void EndTrial()

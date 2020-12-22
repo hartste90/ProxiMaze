@@ -564,7 +564,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 328771295}
     m_Modifications:
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
@@ -604,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
@@ -690,6 +690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 743713122}
+  - {fileID: 2041113075}
   - {fileID: 619877044}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -704,6 +705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338033761}
   - component: {fileID: 338033762}
+  - component: {fileID: 338033763}
   m_Layer: 5
   m_Name: Trial Complete Panel
   m_TagString: Untagged
@@ -745,6 +747,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 906b868bc6af14ad1a81379c7e6b7580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cg: {fileID: 338033763}
+--- !u!225 &338033763
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338033760}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &448748579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trialParent: {fileID: 1738763035}
+  environment: {fileID: 328771295}
 --- !u!4 &858942250
 Transform:
   m_ObjectHideFlags: 0
@@ -2302,7 +2318,7 @@ PrefabInstance:
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
@@ -2323,6 +2339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Floor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907338841865957985, guid: 9dee336c36ae643c485cc3fffc10e2e2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dee336c36ae643c485cc3fffc10e2e2, type: 3}
@@ -2432,7 +2453,7 @@ PrefabInstance:
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
         type: 3}
@@ -2453,6 +2474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Floor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907338841865957985, guid: 9dee336c36ae643c485cc3fffc10e2e2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dee336c36ae643c485cc3fffc10e2e2, type: 3}
@@ -2973,3 +2999,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945630098}
   m_CullTransparentMesh: 0
+--- !u!4 &2041113075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5907338841865957984, guid: 9dee336c36ae643c485cc3fffc10e2e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 278473059}
+  m_PrefabAsset: {fileID: 0}

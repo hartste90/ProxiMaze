@@ -87,9 +87,32 @@ public class TrialController : MonoBehaviour
 
     }
 
+    void DestroyWalls()
+    {
+        GameObject[] wallsList = GameObject.FindGameObjectsWithTag("Wall");
+        foreach (GameObject obj in wallsList)
+        {
+            obj.GetComponent<ProxiRise>().TweenToHidden();
+        }
+    }
+
     public void EndTrial()
     {
-        Destroy(gameObject);
+        Sequence s = DOTween.Sequence();
+        s.AppendCallback(DestroyWalls);
+        s.AppendInterval(.3f);
+        s.OnComplete(() =>
+            {
+                DetachCameraFromTrial();
+                DOTween.KillAll();
+                Destroy(gameObject);
+            });
+        s.Play();
+    }
+
+    void DetachCameraFromTrial()
+    {
+        Camera.main.transform.SetParent(null);
     }
 
     void ReturnCameraToPlayer()
