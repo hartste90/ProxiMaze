@@ -73,7 +73,7 @@ public class ProxiRise : MonoBehaviour {
 	public void TweenToHidden()
 	{
 		KillMyTweens();
-		transform.DOLocalMoveY(startHeight, .2f).SetId("TweenToHidden" + gameObject.GetInstanceID()).OnComplete(
+		transform.DOLocalMoveY(startHeight, 1f).SetId("TweenToHidden" + gameObject.GetInstanceID()).OnComplete(
 			() => {
 				Destroy(gameObject);
 				});

@@ -43,7 +43,7 @@ public class LevelController : MonoBehaviour
         EndTrialImpl();
         //intro this trial
         trialData = data;
-        Invoke("BeginTrialImpl", .4f);
+        Invoke("BeginTrialImpl", 1.2f);
     }
 
     public static void BeginTrial(TrialData trialData)

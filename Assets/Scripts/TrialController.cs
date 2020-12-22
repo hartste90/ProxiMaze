@@ -100,7 +100,7 @@ public class TrialController : MonoBehaviour
     {
         Sequence s = DOTween.Sequence();
         s.AppendCallback(DestroyWalls);
-        s.AppendInterval(.3f);
+        s.AppendInterval(1f);
         s.OnComplete(() =>
             {
                 DetachCameraFromTrial();
