@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using DG.Tweening;
 
 public class GameController : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DOTween.SetTweensCapacity(1250, 500);
         GetPlayer();
         //create level
         LevelController.BeginTrial(trialDataList[currentTrialIdx]);
@@ -76,6 +78,7 @@ public class GameController : MonoBehaviour
         Instance.uiController.SetLevelText("Level " + (Instance.currentTrialIdx + 1));
         //LevelController.BeginTrial(Instance.trialDataList[Instance.currentTrialIdx]);
         EnableJoystick();
+        Instance.uiController.OnTrialBegin();
     }
 
     public static void DisableJoystick()
@@ -88,4 +91,10 @@ public class GameController : MonoBehaviour
         Instance.joystick.transform.parent.gameObject.SetActive(true);
         Instance.joystick.ResetJoystick();
     }
+
+    public static void OnStarPickupCollected(Vector3 origin)
+    {
+        Instance.uiController.OnStarPickupCollected(origin);
+    }
+
 }

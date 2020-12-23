@@ -13,5 +13,17 @@ public class PlayerMazeOperator : MonoBehaviour
             Debug.LogFormat("Maze Complete");
             LevelController.OnMazeEndReached();
         }
+
+        else if (other.tag == "Pickup")
+        {
+            Pickup pickup = other.GetComponentInParent<Pickup>();
+            if (pickup.type == PickupType.star)
+            {
+                GameController.OnStarPickupCollected(transform.position);
+            }
+            pickup.DestroySelf();
+        }
     }
+
+
 }

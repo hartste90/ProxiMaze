@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff0e6b532e964c2b8fb3af5f4b51fe7, type: 3}
   m_Name: Trial 1
   m_EditorClassIdentifier: 
-  trialPrefab: {fileID: 5947494773446891138, guid: e34e49d9b431949ef97f3128e4e08953,
+  trialPrefab: {fileID: 5947494773446891138, guid: 7c970c9ab6cbf43ed91d7dafb6ed8411,
     type: 3}

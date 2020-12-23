@@ -1,39 +1,26 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProxiRise.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMazeOperator.cs">
     <Files>
-      <File FileName="Assets/GameController.cs" Line="78" Column="1" />
-      <File FileName="Assets/Scripts/LevelController.cs" Line="72" Column="39" />
-      <File FileName="Assets/Scripts/TrialController.cs" Line="118" Column="1" />
-      <File FileName="Assets/Scripts/ProxiRise.cs" Line="76" Column="40" />
+      <File FileName="Assets/Scripts/LevelController.cs" Line="71" Column="30" />
+      <File FileName="Assets/Scripts/TrialController.cs" />
+      <File FileName="Assets/Scripts/ProxiRise.cs" />
+      <File FileName="Assets/TrialCompletePanel.cs" />
+      <File FileName="Assets/GameController.cs" Line="40" Column="6" />
+      <File FileName="Assets/StarPanelView.cs" Line="22" Column="39" />
+      <File FileName="Assets/StarView.cs" />
+      <File FileName="Assets/UIController.cs" Line="29" Column="33" />
+      <File FileName="Assets/Pickup.cs" Line="28" Column="9" />
+      <File FileName="Assets/Scripts/Doober.cs" Line="33" Column="6" />
+      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMazeOperator.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ProxiMaze" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="HeroicTraversal - Humanoid animations" expanded="True">
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="Scripts" expanded="True">
-                <Node name="ProxiRise.cs" selected="True" />
-              </Node>
-              <Node name="Standard Assets" expanded="True">
-                <Node name="CrossPlatformInput" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ceecaa8-04a8-47cb-b3b1-6245c54d2e38" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6d50b465-a2ad-45b9-bb36-ff533abdf3b9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/GameController.cs" relfile="Assets/GameController.cs" line="78" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Scripts/GameController.cs" relfile="Assets/Scripts/GameController.cs" line="84" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

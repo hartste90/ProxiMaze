@@ -96,13 +96,13 @@
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/PPPTest_DataManager.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/FastBitConverter.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/HoverTexts.cs" />
-    <Compile Include="Assets/UIController.cs" />
+    <Compile Include="Assets/Scripts/UIController.cs" />
     <Compile Include="Assets/ConsolePro/ConsoleProDebug.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/rotate.cs" />
     <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
-    <Compile Include="Assets/TrialCompletePanel.cs" />
+    <Compile Include="Assets/Scripts/TrialCompletePanel.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControlXY.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/HoverTextDM.cs" />
     <Compile Include="Assets/Scripts/TrialController.cs" />
@@ -115,6 +115,10 @@
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
+    <Compile Include="Assets/Scripts/StarPanelView.cs" />
+    <Compile Include="Assets/Scripts/StarView.cs" />
+    <Compile Include="Assets/Pickup.cs" />
+    <Compile Include="Assets/Scripts/Doober.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

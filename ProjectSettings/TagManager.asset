@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Maze End
+  - Pickup
   layers:
   - Default
   - TransparentFX
