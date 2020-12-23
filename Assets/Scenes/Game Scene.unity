@@ -1670,6 +1670,8 @@ MonoBehaviour:
   levelLabel: {fileID: 629601867}
   trialCompletePanel: {fileID: 338033762}
   starPanelView: {fileID: 1598673127}
+  starDooberPrefab: {fileID: 4022766126292064828, guid: 6b7d6f49dd74a4c3d84c803f19f9f4a8,
+    type: 3}
 --- !u!1 &787882235
 GameObject:
   m_ObjectHideFlags: 0
