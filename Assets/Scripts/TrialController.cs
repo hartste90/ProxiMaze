@@ -37,7 +37,7 @@ public class TrialController : MonoBehaviour
         return playerStartAnchor.position;
     }
 
-    public void SetPlayer(FirstPersonController playerSet)
+    public void SetPlayer(PlayerController playerSet)
     {
         GameController.GetPlayer().GetComponentInChildren<TrailRenderer>().enabled = false;
         GameController.GetPlayer().transform.position = GetPlayerStartPosition();

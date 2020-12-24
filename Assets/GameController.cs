@@ -30,11 +30,12 @@ public class GameController : MonoBehaviour
     public List<TrialData> trialDataList;
     public int currentTrialIdx = 0;
     public Camera cameraPrefab;
-    public FirstPersonController playerPrefab;
+    public PlayerController playerPrefab;
+    //public FirstPersonController playerPrefab;
     public UIController uiController;
     public Joystick joystick;
 
-    FirstPersonController player;
+    PlayerController player;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,11 +48,11 @@ public class GameController : MonoBehaviour
 
 
 
-    public static FirstPersonController GetPlayer()
+    public static PlayerController GetPlayer()
     {
         if (Instance.player == null)
         {
-            Instance.player = Instantiate<FirstPersonController>(Instance.playerPrefab);
+            Instance.player = Instantiate<PlayerController>(Instance.playerPrefab);
             Camera mainCamera = Instantiate<Camera>(Instance.cameraPrefab, Instance.player.transform);
             Instance.player.RegisterCamera(mainCamera);
         }
@@ -83,6 +84,7 @@ public class GameController : MonoBehaviour
 
     public static void DisableJoystick()
     {
+        Instance.joystick.ResetJoystick();
         Instance.joystick.transform.parent.gameObject.SetActive(false);
     }
 

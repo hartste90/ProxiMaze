@@ -30,7 +30,7 @@ public class LevelController : MonoBehaviour
 
     TrialData trialData;
     TrialController trialController;
-    FirstPersonController playerController;
+    PlayerController playerController;
 
     public static void TransitionToTrial(TrialData data)
     {

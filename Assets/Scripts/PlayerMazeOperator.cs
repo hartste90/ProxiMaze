@@ -23,6 +23,22 @@ public class PlayerMazeOperator : MonoBehaviour
             }
             pickup.DestroySelf();
         }
+
+        else if (other.tag == "Zipline Start")
+        {
+            Zipline zipline = other.GetComponentInParent<Zipline>();
+            GameController.GetPlayer().BeginZipline(zipline);
+        }
+
+        //else if (other.tag == "Zipline End")
+        //{
+        //    Zipline zipline = other.GetComponentInParent<Zipline>();
+        //    if (zipline.IsBeingUsed())
+        //    {
+        //        GameController.GetPlayer().OnZiplineComplete(zipline);
+        //    }
+            
+        //}
     }
 
 

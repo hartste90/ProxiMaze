@@ -7,7 +7,7 @@ public class ProxiRise : MonoBehaviour {
 
 	private float detectDistance = 5f;
 	private float startHeight = -3f;
-	private float minHeight = -1f;
+	private float minHeight = -2f;
 	private float maxHeight = 0f;
 	private Transform playerTransform;
 

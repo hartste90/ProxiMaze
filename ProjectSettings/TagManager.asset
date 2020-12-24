@@ -7,6 +7,8 @@ TagManager:
   - Wall
   - Maze End
   - Pickup
+  - Zipline Start
+  - Zipline End
   layers:
   - Default
   - TransparentFX
