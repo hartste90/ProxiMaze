@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class WallView : MonoBehaviour
 {
-    public List<Material> materialsList;
-
-    // Start is called before the first frame update
-    void Start()
+    public void SetMaterial(Material matSet)
     {
-        //GetComponent<MeshRenderer>().material = materialsList[Random.Range(0, materialsList.Count)];
+        GetComponent<MeshRenderer>().material = matSet;
     }
 }

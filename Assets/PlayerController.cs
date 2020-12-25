@@ -52,7 +52,10 @@ public class PlayerController : MonoBehaviour
                 });
 
         //animation
-        controllerInterpreter.OnBeginZipline();
+
+        //look in zipline direction
+        Vector3 direction = zipline.endLineAnchor.position - zipline.startLineAnchor.position;
+        controllerInterpreter.OnBeginZipline(direction);
     }
 
     public void OnZiplineComplete(Zipline zipline)

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ff0e6b532e964c2b8fb3af5f4b51fe7, type: 3}
-  m_Name: Trial 1
+  m_Name: Trial 7
   m_EditorClassIdentifier: 
-  trialPrefab: {fileID: 5947494773446891138, guid: 8afc45bfb97c943f2aa7db8be83ea220,
+  trialPrefab: {fileID: 5947494773446891138, guid: ee8c1c5017bf742a0a3623e0d4abcf53,
     type: 3}

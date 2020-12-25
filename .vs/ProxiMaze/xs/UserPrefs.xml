@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TrialController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameController.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelController.cs" Line="68" Column="32" />
-      <File FileName="Assets/Scripts/ProxiRise.cs" />
-      <File FileName="Assets/Zipline.cs" />
-      <File FileName="Assets/Scripts/PlayerMazeOperator.cs" />
-      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" />
-      <File FileName="Assets/GameController.cs" Line="85" Column="31" />
-      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" />
-      <File FileName="Assets/PlayerController.cs" Line="31" Column="24" />
-      <File FileName="Assets/Scripts/Spin.cs" Line="8" Column="33" />
-      <File FileName="Assets/Scripts/TrialController.cs" Line="64" Column="30" />
+      <File FileName="Assets/Scripts/TrialController.cs" Line="6" Column="14" />
+      <File FileName="Assets/Scripts/WallView.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/LevelController.cs" Line="68" Column="43" />
+      <File FileName="Assets/PlayerController.cs" Line="36" Column="33" />
+      <File FileName="Assets/Zipline.cs" Line="5" Column="14" />
+      <File FileName="Assets/HeroicTraversal - Humanoid animations/Scripts/ControllerInterpreter.cs" Line="62" Column="17" />
+      <File FileName="Assets/Scripts/PlayerMazeOperator.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameController.cs" Line="89" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -27,6 +27,8 @@ public class LevelController : MonoBehaviour
 
     public Transform trialParent;
     public Transform environment;
+    public List<Material> materialsList;
+
 
     TrialData trialData;
     TrialController trialController;
@@ -62,6 +64,8 @@ public class LevelController : MonoBehaviour
         trialController = Instantiate<TrialController>(trialData.trialPrefab, trialParent);
         Vector3 offset = playerController.transform.position - trialController.GetPlayerStartPosition();
         trialController.transform.position = new Vector3(offset.x, 0, offset.z);
+        Material trialMaterial = materialsList[Random.Range(0, materialsList.Count)];
+        trialController.Init(trialMaterial);
         environment.position = new Vector3(trialController.mazeCenterAnchor.position.x, 0, trialController.mazeCenterAnchor.position.z);
 
 

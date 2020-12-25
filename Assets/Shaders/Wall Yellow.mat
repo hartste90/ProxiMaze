@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ScreenGradient
+  m_Name: Wall Yellow
   m_Shader: {fileID: 4800000, guid: 9398734e953f842ca93592e4abb911a3, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -78,8 +78,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BottomColor: {r: 0.43867922, g: 0.8711724, b: 1, a: 1}
+    - _BottomColor: {r: 1, g: 0.9943664, b: 0.43921566, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TopColor: {r: 0.08726415, g: 0.35929462, b: 0.5, a: 1}
+    - _TopColor: {r: 0.48921224, g: 0.5019608, b: 0.08627451, a: 1}
   m_BuildTextureStacks: []

@@ -9,19 +9,24 @@ public class TrialController : MonoBehaviour
     public Transform mazeCenterAnchor;
     public Transform mazeTopViewAnchor;
     public Transform wallParent;
-    
+
     public Transform fireworksParent;
 
     private List<WallView> wallsList;
     private Transform mazeEnd;
 
-    private void Awake()
+
+    public void Init(Material matSet)
     {
         wallsList = new List<WallView>();
-        foreach(Transform t in wallParent)
+        foreach (Transform t in wallParent)
         {
-            wallsList.Add(t.GetComponent<WallView>());
+            WallView wall = t.GetComponent<WallView>();
+            wallsList.Add(wall);
+            wall.SetMaterial(matSet);
+
         }
+
         mazeEnd = fireworksParent;
     }
 

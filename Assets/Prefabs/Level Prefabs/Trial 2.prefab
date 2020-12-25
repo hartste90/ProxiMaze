@@ -324,6 +324,12 @@ MonoBehaviour:
   mazeCenterAnchor: {fileID: 1980529930528210249}
   mazeTopViewAnchor: {fileID: 1980529932657854390}
   wallParent: {fileID: 1980529931108959207}
+  materialsList:
+  - {fileID: 2100000, guid: 4930c6ffa5b9b9f4098249a43abf8506, type: 2}
+  - {fileID: 2100000, guid: 5abb3d18170c7cc4b8ce3577ef8b5ed8, type: 2}
+  - {fileID: 2100000, guid: 6968e89851431104b8f931c37d69356b, type: 2}
+  - {fileID: 2100000, guid: a3cd22eceea5e8548b10cdb5d9b49a25, type: 2}
+  - {fileID: 2100000, guid: 1e75d51d555dec54b90544819dd5e13a, type: 2}
   fireworksParent: {fileID: 1978177336649598031}
 --- !u!1 &1980529932657854385
 GameObject:
