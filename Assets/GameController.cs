@@ -78,6 +78,7 @@ public class GameController : MonoBehaviour
     {
         Instance.uiController.SetLevelText("Level " + (Instance.currentTrialIdx + 1));
         //LevelController.BeginTrial(Instance.trialDataList[Instance.currentTrialIdx]);
+        Instance.player.enabled = true;
         EnableJoystick();
         Instance.uiController.OnTrialBegin();
     }
@@ -90,8 +91,11 @@ public class GameController : MonoBehaviour
 
     public static void EnableJoystick()
     {
-        Instance.joystick.transform.parent.gameObject.SetActive(true);
-        Instance.joystick.ResetJoystick();
+        if (Instance.player.enabled)
+        {
+            Instance.joystick.transform.parent.gameObject.SetActive(true);
+            Instance.joystick.ResetJoystick();
+        }
     }
 
     public static void OnStarPickupCollected(Vector3 origin)

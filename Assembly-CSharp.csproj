@@ -87,7 +87,10 @@
     <Compile Include="Assets/Scripts/TutorialController.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/CreditsDisplay.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/SimpleChannel.cs" />
+    <Compile Include="Assets/Scripts/StarPanelView.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/PPPTest_LoadSign.cs" />
+    <Compile Include="Assets/Zipline.cs" />
+    <Compile Include="Assets/PlayerController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetSerializer.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/PPPTest_General.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetSocket.cs" />
@@ -99,7 +102,9 @@
     <Compile Include="Assets/Scripts/UIController.cs" />
     <Compile Include="Assets/ConsolePro/ConsoleProDebug.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
+    <Compile Include="Assets/Pickup.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" />
+    <Compile Include="Assets/Scripts/Doober.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/rotate.cs" />
     <Compile Include="Assets/Scripts/PlayerMoveController.cs" />
     <Compile Include="Assets/Scripts/TrialCompletePanel.cs" />
@@ -114,13 +119,9 @@
     <Compile Include="Assets/ConsolePro/Remote/ConsoleProRemoteServer.cs" />
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
-    <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
-    <Compile Include="Assets/Scripts/StarPanelView.cs" />
     <Compile Include="Assets/Scripts/StarView.cs" />
-    <Compile Include="Assets/Pickup.cs" />
-    <Compile Include="Assets/Scripts/Doober.cs" />
-    <Compile Include="Assets/Zipline.cs" />
-    <Compile Include="Assets/PlayerController.cs" />
+    <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
+    <Compile Include="Assets/Scripts/Spin.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
