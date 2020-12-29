@@ -529,6 +529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ocean
       objectReference: {fileID: 0}
+    - target: {fileID: 8583533574438327308, guid: 98a83c7496bdd435081d4da3fb9e398e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a83c7496bdd435081d4da3fb9e398e, type: 3}
 --- !u!1 &200114968
@@ -1910,6 +1915,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 137d2b11b5501469cac6a9372fd731f8, type: 2}
   - {fileID: 11400000, guid: 76e1f15c5a65040848342a7aef8af6d8, type: 2}
   - {fileID: 11400000, guid: 5d8e27eb3384b45aa97bc9cf2d04fef7, type: 2}
+  - {fileID: 11400000, guid: 69379d7ef6c57447d961b4779b07e078, type: 2}
+  - {fileID: 11400000, guid: 37777fde48e264fe1bc5425f22e686a9, type: 2}
+  - {fileID: 11400000, guid: 6d6370923bf5544f79671a58fc9c3dd8, type: 2}
   currentTrialIdx: 0
   cameraPrefab: {fileID: 8390780095029673987, guid: ecf3e65a98372433c9ca301f41ab351c,
     type: 3}
