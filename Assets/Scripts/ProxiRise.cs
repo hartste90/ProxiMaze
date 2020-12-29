@@ -5,10 +5,10 @@ using DG.Tweening;
 
 public class ProxiRise : MonoBehaviour {
 
-	private float detectDistance = 5f;
+	private float detectDistance = 7f;
 	private float startHeight = -3f;
 	private float minHeight = -2f;
-	private float maxHeight = 0f;
+	private float maxHeight = -1f;
 	private Transform playerTransform;
 
 	bool discovered = false;
@@ -47,7 +47,7 @@ public class ProxiRise : MonoBehaviour {
 	{
 		if (isActive)
         {
-			float dist = Vector3.Distance(transform.position, playerTransform.position);
+			float dist = Vector3.Distance(new Vector3(transform.position.x, playerTransform.position.y, transform.position.z), playerTransform.position);
 			currentDistance = dist;
 			//check if player is within my vicinity
 			if (dist <= detectDistance)
