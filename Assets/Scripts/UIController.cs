@@ -30,11 +30,15 @@ public class UIController : MonoBehaviour
         starPanelView.OnLevelBegin();
     }
 
+    public void OnTrialComplete()
+    {
+        ToggleTrialCompletePanel();
+        PrefsManager.SetStarsForLevel(GameController.GetCurrentTrialIdx(), starsCollected);
+    }
+
     public void OnStarPickupCollected(Vector3 origin)
     {
         starsCollected++;
-        //if we have more stars than before, overwrite. if less, do NOT overwrite
-
         Doober starDoober = Instantiate<Doober>(starDooberPrefab, starPanelView.transform);
         Vector3 screenOrigin = Camera.main.WorldToScreenPoint(origin);
         starDoober.Init(1, screenOrigin, GetNextEmptyStarPos(), starPanelView.AddStarActual);

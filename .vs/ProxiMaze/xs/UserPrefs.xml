@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIController.cs">
     <Files>
-      <File FileName="Assets/LevelSelectPanel.cs" Line="16" Column="39" />
+      <File FileName="Assets/LevelSelectPanel.cs" Line="34" Column="51" />
       <File FileName="Assets/LevelSelectButton.cs" Line="34" Column="75" />
-      <File FileName="Assets/GameController.cs" Line="103" Column="23" />
-      <File FileName="Assets/Scripts/PrefsManager.cs" Line="16" Column="54" />
-      <File FileName="Assets/Scripts/UIController.cs" Line="51" Column="46" />
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" Line="12" Column="17" />
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" Line="169" Column="35" />
+      <File FileName="Assets/GameController.cs" Line="118" Column="40" />
+      <File FileName="Assets/Scripts/PrefsManager.cs" Line="52" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMazeOperator.cs" Line="22" Column="42" />
+      <File FileName="Assets/Scripts/UIController.cs" Line="35" Column="23" />
+      <File FileName="Assets/Scripts/StarPanelView.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

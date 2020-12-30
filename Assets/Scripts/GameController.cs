@@ -68,14 +68,15 @@ public class GameController : MonoBehaviour
 
     public static void OnMazeEndReached()
     {
-        Instance.uiController.ToggleTrialCompletePanel();
+        Instance.uiController.OnTrialComplete();
+        PrefsManager.SetUnlockedLevel(Instance.currentTrialIdx+1);
+
     }
 
     public static void OnContinueButtonPressed()
     {
         Instance.uiController.ToggleTrialCompletePanel();
         Instance.currentTrialIdx++;
-        PrefsManager.SetUnlockedLevel(Instance.currentTrialIdx);
         LevelController.TransitionToTrial(Instance.trialDataList[Instance.currentTrialIdx]);
         //Instance.currentTrialIdx++;
         //Instance.BeginLevel();
@@ -115,6 +116,11 @@ public class GameController : MonoBehaviour
     public static void OnStarPickupCollected(Vector3 origin)
     {
         Instance.uiController.OnStarPickupCollected(origin);
+    }
+
+    public static int GetCurrentTrialIdx()
+    {
+        return Instance.currentTrialIdx;
     }
 
 }
