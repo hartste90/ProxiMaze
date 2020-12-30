@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  m_Color: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 2537744401289542391}
   - component: {fileID: 2537744401289542390}
   m_Layer: 5
-  m_Name: Star1
+  m_Name: UI Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,6 +201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf5d28f063cb45e8be8a5a41636ec46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  filledOutlineColor: {r: 0.9433962, g: 0.71608067, b: 0.20024922, a: 1}
+  emptyOutlineColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+  outlineImage: {fileID: 2537744401593898130}
   filledImage: {fileID: 2537744401042490994}
 --- !u!1 &2537744401593898141
 GameObject:
@@ -261,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8679245, g: 0.6004387, b: 0.25792095, a: 1}
+  m_Color: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -13,6 +13,7 @@ public class LevelSelectButton : MonoBehaviour
     public Color lockedTextColor;
     public List<StarView> starList;
     public List<Image> lockedImageList;
+    public Image completeBackground;
 
 
     public void Init(int levelNumberSet, int numStars, bool isLocked, System.Action<int> onPressedCallbackSet)
@@ -51,6 +52,7 @@ public class LevelSelectButton : MonoBehaviour
                 star.ShowEmpty();
             }
         }
+        completeBackground.gameObject.SetActive(starList.Count == numStars);
     }
 
     void PlayNegativeCTA()
