@@ -33,12 +33,71 @@ namespace UnityStandardAssets.CrossPlatformInput
                 return 1;
             }
         }
+#endif
 
-        public void OnActiveBuildTargetChanged(BuildTarget previousTarget, BuildTarget newTarget)
+        private void Start()
         {
-            throw new NotImplementedException();
+#if UNITY_EDITOR
+            if (Application.isPlaying) //if in the editor, need to check if we are playing, as start is also called just after exiting play
+#endif
+            {
+                UnityEngine.EventSystems.EventSystem system = GameObject.FindObjectOfType<UnityEngine.EventSystems.EventSystem>();
+
+                if (system == null)
+                {//the scene have no event system, spawn one
+                    GameObject o = new GameObject("EventSystem");
+
+                    o.AddComponent<UnityEngine.EventSystems.EventSystem>();
+                    o.AddComponent<UnityEngine.EventSystems.StandaloneInputModule>();
+                }
+            }
+        }
+
+#if UNITY_EDITOR
+
+        private void OnEnable()
+        {
+            EditorApplication.update += Update;
+            CheckEnableControlRig();
+        }
+
+
+        private void OnDisable()
+        {
+            EditorApplication.update -= Update;
+        }
+
+
+        private void Update()
+        {
+            //CheckEnableControlRig();
         }
 #endif
 
+
+        private void CheckEnableControlRig()
+        {
+#if MOBILE_INPUT
+		EnableControlRig(true);
+#else
+            //EnableControlRig(true);
+#endif
+        }
+
+
+        private void EnableControlRig(bool enabled)
+        {
+            foreach (Transform t in transform)
+            {
+                t.gameObject.SetActive(enabled);
+            }
+        }
+
+#if UNITY_EDITOR
+        public void OnActiveBuildTargetChanged(BuildTarget previousTarget, BuildTarget newTarget)
+        {
+            CheckEnableControlRig();
+        }
+#endif
     }
 }

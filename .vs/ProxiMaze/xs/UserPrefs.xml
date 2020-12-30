@@ -1,14 +1,9 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StarView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs">
     <Files>
-      <File FileName="Assets/LevelSelectPanel.cs" Line="34" Column="1" />
-      <File FileName="Assets/LevelSelectButton.cs" Line="56" Column="1" />
-      <File FileName="Assets/GameController.cs" Line="71" Column="36" />
-      <File FileName="Assets/Scripts/PrefsManager.cs" Line="51" Column="40" />
       <File FileName="Assets/Scripts/PlayerMazeOperator.cs" Line="22" Column="42" />
-      <File FileName="Assets/Scripts/UIController.cs" Line="35" Column="9" />
-      <File FileName="Assets/Scripts/StarPanelView.cs" Line="11" Column="1" />
-      <File FileName="Assets/Scripts/StarView.cs" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/StarPanelView.cs" Line="5" Column="43" />
+      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" Line="89" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
