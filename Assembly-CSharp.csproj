@@ -64,6 +64,7 @@
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPeerCollection.cs" />
     <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2SceneSelect.cs" />
     <Compile Include="Assets/Super Confetti FX/Demo/Scripts/Confetti2Cycler.cs" />
+    <Compile Include="Assets/Scripts/Spin.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/SwipeControl.cs" />
     <Compile Include="Assets/HeroicTraversal - Humanoid animations/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCamera.cs" />
@@ -90,7 +91,7 @@
     <Compile Include="Assets/Scripts/StarPanelView.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/PPPTest_LoadSign.cs" />
     <Compile Include="Assets/Zipline.cs" />
-    <Compile Include="Assets/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetSerializer.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/PPPTest_General.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetSocket.cs" />
@@ -102,7 +103,7 @@
     <Compile Include="Assets/Scripts/UIController.cs" />
     <Compile Include="Assets/ConsolePro/ConsoleProDebug.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
-    <Compile Include="Assets/Pickup.cs" />
+    <Compile Include="Assets/Scripts/Pickup.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetUtils.cs" />
     <Compile Include="Assets/Scripts/Doober.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Loading Sign/rotate.cs" />
@@ -113,7 +114,7 @@
     <Compile Include="Assets/Scripts/TrialController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDataWriter.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/SequencedChannel.cs" />
-    <Compile Include="Assets/GameController.cs" />
+    <Compile Include="Assets/Scripts/GameController.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDebug.cs" />
     <Compile Include="Assets/Scripts/TestScript.cs" />
     <Compile Include="Assets/ConsolePro/Remote/ConsoleProRemoteServer.cs" />
@@ -121,7 +122,9 @@
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
     <Compile Include="Assets/Scripts/StarView.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
-    <Compile Include="Assets/Scripts/Spin.cs" />
+    <Compile Include="Assets/Scripts/LevelSelectPanel.cs" />
+    <Compile Include="Assets/Scripts/LevelSelectButton.cs" />
+    <Compile Include="Assets/Scripts/PrefsManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

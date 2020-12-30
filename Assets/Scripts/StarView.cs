@@ -13,9 +13,14 @@ public class StarView : MonoBehaviour
         filledImage.gameObject.SetActive(false);
     }
 
-    public void AnimateFilled()
+    public void ShowFilled()
     {
         filledImage.gameObject.SetActive(true);
+    }
+
+    public void AnimateFilled()
+    {
+        ShowFilled();
         transform.DOPunchScale(Vector3.one * .2f, .2f);
     }
 }

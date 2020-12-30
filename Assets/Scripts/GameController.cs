@@ -39,11 +39,18 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InitData();
+        uiController.InitLevelSelect(trialDataList);
         DOTween.SetTweensCapacity(1250, 500);
         GetPlayer();
         //create level
         LevelController.BeginTrial(trialDataList[currentTrialIdx]);
         uiController.SetLevelText("Level " + (currentTrialIdx + 1));
+    }
+
+    void InitData()
+    {
+        currentTrialIdx = PrefsManager.GetPlayerUnlockedLevel();
     }
 
 
@@ -68,10 +75,17 @@ public class GameController : MonoBehaviour
     {
         Instance.uiController.ToggleTrialCompletePanel();
         Instance.currentTrialIdx++;
+        PrefsManager.SetUnlockedLevel(Instance.currentTrialIdx);
         LevelController.TransitionToTrial(Instance.trialDataList[Instance.currentTrialIdx]);
         //Instance.currentTrialIdx++;
         //Instance.BeginLevel();
         
+    }
+
+    public static void OpenTrial(int trialNum)
+    {
+        Instance.currentTrialIdx = trialNum;
+        LevelController.TransitionToTrial(Instance.trialDataList[Instance.currentTrialIdx]);
     }
 
     public static void OnBeginTrial()

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -149,8 +150,23 @@ namespace UnityStandardAssets.CrossPlatformInput
 			joystickRange.transform.position = data.position;
 			touchSpot.transform.position = data.position;
 
-
 		}
+
+		//public static bool IsPointerOverUIElement(PointerEventData data)
+		//{
+		//	var eventData = data;
+		//	var results = new List<RaycastResult>();
+		//	EventSystem.current.RaycastAll(eventData, results);
+		//	foreach(RaycastResult result in results)
+  //          {
+		//		if (result.gameObject.activeInHierarchy)
+  //              {
+		//			Debug.LogFormat("Over ui element: {0}", result.gameObject.name);
+		//			return true;
+  //              }
+  //          }
+		//	return false;
+		//}
 
 
 	}

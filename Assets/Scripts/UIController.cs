@@ -10,6 +10,9 @@ public class UIController : MonoBehaviour
     public TrialCompletePanel trialCompletePanel;
     public StarPanelView starPanelView;
     public Doober starDooberPrefab;
+    public LevelSelectPanel levelSelectPanel;
+
+    int starsCollected;
 
     public void SetLevelText(string levelSet)
     {
@@ -23,11 +26,15 @@ public class UIController : MonoBehaviour
 
     public void OnTrialBegin()
     {
+        starsCollected = 0;
         starPanelView.OnLevelBegin();
     }
 
     public void OnStarPickupCollected(Vector3 origin)
     {
+        starsCollected++;
+        //if we have more stars than before, overwrite. if less, do NOT overwrite
+
         Doober starDoober = Instantiate<Doober>(starDooberPrefab, starPanelView.transform);
         Vector3 screenOrigin = Camera.main.WorldToScreenPoint(origin);
         starDoober.Init(1, screenOrigin, GetNextEmptyStarPos(), starPanelView.AddStarActual);
@@ -37,5 +44,10 @@ public class UIController : MonoBehaviour
     public Vector3 GetNextEmptyStarPos()
     {
         return starPanelView.GetNextEmptyStarPos();
+    }
+
+    public void InitLevelSelect(List<TrialData> trialDataList)
+    {
+        levelSelectPanel.Init(trialDataList);
     }
 }
