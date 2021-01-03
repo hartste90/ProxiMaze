@@ -75,6 +75,7 @@
     <Compile Include="Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetDataReader.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetManager.cs" />
+    <Compile Include="Assets/Scripts/LevelSelectPanel.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetConstants.cs" />
     <Compile Include="Assets/Scripts/HiResScreenShots.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NetPacket.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/Data Manager/PPPTest_DataManager.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/FastBitConverter.cs" />
     <Compile Include="Assets/Assets/Plugins/PlayerPrefsPro/Test Scenes/General Test/HoverTexts.cs" />
+    <Compile Include="Assets/Scripts/LevelSelectButton.cs" />
     <Compile Include="Assets/Scripts/UIController.cs" />
     <Compile Include="Assets/ConsolePro/ConsoleProDebug.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayXYVertical.cs" />
@@ -119,12 +121,11 @@
     <Compile Include="Assets/Scripts/TestScript.cs" />
     <Compile Include="Assets/ConsolePro/Remote/ConsoleProRemoteServer.cs" />
     <Compile Include="Assets/Elenesski Generic Move Camera/GenericMoveCameraInputs.cs" />
+    <Compile Include="Assets/Scripts/PrefsManager.cs" />
     <Compile Include="Assets/BLACKISH/SwipeControl/Scripts/C#/ImageDisplayNoFade.cs" />
     <Compile Include="Assets/Scripts/StarView.cs" />
     <Compile Include="Assets/ConsolePro/Remote/LiteNetLib/NtpSyncModule.cs" />
-    <Compile Include="Assets/Scripts/LevelSelectPanel.cs" />
-    <Compile Include="Assets/Scripts/LevelSelectButton.cs" />
-    <Compile Include="Assets/Scripts/PrefsManager.cs" />
+    <Compile Include="Assets/Scripts/WorldData.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

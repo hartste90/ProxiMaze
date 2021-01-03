@@ -50,8 +50,8 @@ public class UIController : MonoBehaviour
         return starPanelView.GetNextEmptyStarPos();
     }
 
-    public void InitLevelSelect(List<TrialData> trialDataList)
+    public void InitLevelSelect(List<WorldData> worldDataList, int worldIdx)
     {
-        levelSelectPanel.Init(trialDataList);
+        levelSelectPanel.Init(worldDataList[worldIdx].GetTrialDataList());
     }
 }

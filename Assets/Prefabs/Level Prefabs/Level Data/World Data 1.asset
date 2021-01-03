@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21725703e19e14b89bf821fb7a5c55ee, type: 3}
+  m_Name: World Data 1
+  m_EditorClassIdentifier: 
+  trialList:
+  - {fileID: 11400000, guid: da50a776b175b436092c43e0dfdd3896, type: 2}
+  - {fileID: 11400000, guid: 6b847de71d67d48bba1340c4cc6c9e0b, type: 2}
+  - {fileID: 11400000, guid: d7b8a122cf1374b8797345bddd7f0ebb, type: 2}
+  - {fileID: 11400000, guid: 137d2b11b5501469cac6a9372fd731f8, type: 2}
+  - {fileID: 11400000, guid: 76e1f15c5a65040848342a7aef8af6d8, type: 2}
+  - {fileID: 11400000, guid: 5d8e27eb3384b45aa97bc9cf2d04fef7, type: 2}
+  - {fileID: 11400000, guid: 69379d7ef6c57447d961b4779b07e078, type: 2}
+  - {fileID: 11400000, guid: 37777fde48e264fe1bc5425f22e686a9, type: 2}
+  - {fileID: 11400000, guid: 6d6370923bf5544f79671a58fc9c3dd8, type: 2}

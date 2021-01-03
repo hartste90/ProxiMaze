@@ -27,7 +27,8 @@ public class GameController : MonoBehaviour
     }
     #endregion
 
-    public List<TrialData> trialDataList;
+    public List<WorldData> worldDataList;
+    public int currentWorldIdx = 0;
     public int currentTrialIdx = 0;
     public Camera cameraPrefab;
     public PlayerController playerPrefab;
@@ -40,12 +41,17 @@ public class GameController : MonoBehaviour
     void Start()
     {
         InitData();
-        uiController.InitLevelSelect(trialDataList);
+        uiController.InitLevelSelect(worldDataList, 0);
         DOTween.SetTweensCapacity(1250, 500);
         GetPlayer();
         //create level
-        LevelController.BeginTrial(trialDataList[currentTrialIdx]);
+        LevelController.BeginTrial(GetCurrentTrialData());
         uiController.SetLevelText("Level " + (currentTrialIdx + 1));
+    }
+
+    TrialData GetCurrentTrialData()
+    {
+        return worldDataList[currentWorldIdx].GetTrialDataList()[currentTrialIdx];
     }
 
     void InitData()
@@ -77,7 +83,7 @@ public class GameController : MonoBehaviour
     {
         Instance.uiController.ToggleTrialCompletePanel();
         Instance.currentTrialIdx++;
-        LevelController.TransitionToTrial(Instance.trialDataList[Instance.currentTrialIdx]);
+        LevelController.TransitionToTrial(Instance.GetCurrentTrialData());
         //Instance.currentTrialIdx++;
         //Instance.BeginLevel();
         
@@ -86,7 +92,7 @@ public class GameController : MonoBehaviour
     public static void OpenTrial(int trialNum)
     {
         Instance.currentTrialIdx = trialNum;
-        LevelController.TransitionToTrial(Instance.trialDataList[Instance.currentTrialIdx]);
+        LevelController.TransitionToTrial(Instance.GetCurrentTrialData());
     }
 
     public static void OnBeginTrial()

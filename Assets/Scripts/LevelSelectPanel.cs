@@ -64,4 +64,10 @@ public class LevelSelectPanel : MonoBehaviour
         gameObject.SetActive(isVisible);
         
     }
+
+    public void DebugOnDestroyPlayerPrefsButtonPressed()
+    {
+        PlayerPrefsPro.DeleteAll();
+        PlayerPrefsPro.Save();
+    }
 }
