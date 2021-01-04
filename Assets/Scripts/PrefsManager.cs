@@ -22,6 +22,11 @@ public static class PrefsManager
         Debug.LogFormat("SetPref: {0} -- {1}", PREF_PLAYER_UNLOCKED_LEVEL, levelSet);
     }
 
+    public static int GetStarsForLevel(int worldIdx, int level)
+    {
+        return GetStarsForLevel(10 * worldIdx + level);
+    }
+
     public static int GetStarsForLevel(int level)
     {
         int[] levelStarsList = PlayerPrefsPro.GetIntArray(PREF_PLAYER_LEVEL_STARS, new int[50]);
@@ -46,6 +51,12 @@ public static class PrefsManager
             PlayerPrefsPro.Save();
             return 0;
         }
+    }
+
+
+    public static void SetStarsForLevel(int worldIdx, int level, int starsSet)
+    {
+        SetStarsForLevel(10 * worldIdx + level, starsSet);
     }
 
     public static void SetStarsForLevel(int level, int starsSet)

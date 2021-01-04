@@ -129,4 +129,8 @@ public class GameController : MonoBehaviour
         return Instance.currentTrialIdx;
     }
 
+    public static int GetCurrentWorldIdx()
+    {
+        return Instance.currentWorldIdx;
+    }
 }

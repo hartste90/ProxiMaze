@@ -43,6 +43,7 @@ public class LevelSelectButton : MonoBehaviour
         for( int idx = 0; idx < starList.Count; idx++)
         {
             StarView star = starList[idx];
+            //star.gameObject.SetActive(!isLocked);
             if (!isLocked && idx <= numStars-1)
             {
                 star.ShowFilled();

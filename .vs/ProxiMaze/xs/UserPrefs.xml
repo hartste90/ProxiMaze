@@ -1,15 +1,11 @@
 ﻿<Properties StartupConfiguration="{DDCC20F0-2686-167D-D38C-5B75E064D91F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Zipline.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelSelectButton.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMazeOperator.cs" Line="22" Column="42" />
-      <File FileName="Assets/Scripts/StarPanelView.cs" />
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
-      <File FileName="Assets/Scripts/LevelSelectPanel.cs" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="95" Column="73" />
-      <File FileName="Assets/Scripts/TrialData.cs" Line="10" Column="2" />
-      <File FileName="Assets/Scripts/WorldData.cs" Line="6" Column="42" />
-      <File FileName="Assets/Scripts/UIController.cs" Line="58" Column="1" />
-      <File FileName="Assets/Zipline.cs" Line="25" Column="6" />
+      <File FileName="Assets/Scripts/LevelSelectPanel.cs" Line="32" Column="46" />
+      <File FileName="Assets/Scripts/PrefsManager.cs" Line="59" Column="59" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="134" Column="40" />
+      <File FileName="Assets/Scripts/StarView.cs" Line="7" Column="19" />
+      <File FileName="Assets/Scripts/LevelSelectButton.cs" Line="45" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
@@ -18,7 +14,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Scripts/PlayerMazeOperator.cs" relfile="Assets/Scripts/PlayerMazeOperator.cs" line="22" column="1" />
-      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Scripts/LevelSelectPanel.cs" relfile="Assets/Scripts/LevelSelectPanel.cs" line="34" column="1" />
+      <Breakpoint file="/Users/stevenhart/Documents/workspace/ProxiMaze/Assets/Scripts/LevelSelectPanel.cs" relfile="Assets/Scripts/LevelSelectPanel.cs" line="46" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

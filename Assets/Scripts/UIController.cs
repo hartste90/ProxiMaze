@@ -52,6 +52,6 @@ public class UIController : MonoBehaviour
 
     public void InitLevelSelect(List<WorldData> worldDataList, int worldIdx)
     {
-        levelSelectPanel.Init(worldDataList[worldIdx].GetTrialDataList());
+        levelSelectPanel.Init(worldDataList, worldIdx);
     }
 }
