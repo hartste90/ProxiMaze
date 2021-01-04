@@ -11,6 +11,7 @@ public class Zipline : MonoBehaviour
 
     LineRenderer lineRenderer;
     const float ZIPLINE_SPEED = 5f;
+    public float ZIPLINE_TEXTURE_SPEED = 2f;
     bool isBeingUsed = false;
 
     private void Start()
@@ -18,6 +19,12 @@ public class Zipline : MonoBehaviour
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.SetPosition(0, startLineAnchor.position);
         lineRenderer.SetPosition(1, endLineAnchor.position);
+    }
+
+    private void Update()
+    {
+        lineRenderer.material.SetTextureOffset("_MainTex", Vector2.right * Time.time / ZIPLINE_TEXTURE_SPEED);
+
     }
 
     public Vector3 GetStartPos()

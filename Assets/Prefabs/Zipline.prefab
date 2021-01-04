@@ -348,6 +348,7 @@ MonoBehaviour:
   startLineAnchor: {fileID: 4254495583616648135}
   endLineAnchor: {fileID: 4254495584978703517}
   exitAnchor: {fileID: 2975775892814009374}
+  ZIPLINE_TEXTURE_SPEED: 2
 --- !u!120 &4254495585028239482
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -357,7 +358,7 @@ LineRenderer:
   m_GameObject: {fileID: 4254495585028239483}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 0
   m_LightProbeUsage: 0
@@ -367,7 +368,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6bd11a6ec58804f03b2aa25277daab74, type: 2}
+  - {fileID: 2100000, guid: 820d5d2e2d151499aa29fea2fd101bbc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -389,8 +390,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: -0.22882843, z: -0.4368508}
+  - {x: 0, y: 0, z: 5}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -411,8 +412,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.49411768, g: 0.21176472, b: 0.1764706, a: 1}
+      key1: {r: 0.773, g: 0.5991609, b: 0.577431, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -441,7 +442,7 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 1
